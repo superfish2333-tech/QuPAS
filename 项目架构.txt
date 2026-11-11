@@ -1,0 +1,14 @@
+qas/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── qas-SmokeTest-20261109-165905/log.txt   # 冒烟运行留下的样例输出
+└── qsearch/
+    ├── __init__.py
+    ├── h2_hamiltonian.py     # H2 哈密顿量 + 精确能量断言
+    ├── qencoding.py          # genome ↔ CircuitSpec
+    ├── qcircuit.py           # CircuitSpec → PennyLane QNode + 代价统计
+    ├── vqe_trainer.py        # 手写 Adam 的 VQE
+    ├── qproblem.py           # pymoo 双目标 Problem
+    ├── nsga2.py              # 新增：内置 NSGA-II 引擎
+    └── evolution_qsearch.py  # 进化搜索 CLI

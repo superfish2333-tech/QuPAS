@@ -1,0 +1,1690 @@
+cd "E:\{postgraduate_study}\Article and Code\EA_NAS_PRJ\qas"
+conda activate qas
+python -m qsearch.evolution_qsearch --pop_size 20 --n_gens 20
+
+初次实验结果：
+Microsoft Windows [版本 10.0.26200.9711]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\Users\18122>cd E:\{postgraduate_study}\Article and Code\EA_NAS_PRJ\qas
+
+C:\Users\18122>cd /d E:\{postgraduate_study}\Article and Code\EA_NAS_PRJ\qas
+
+E:\{postgraduate_study}\Article and Code\EA_NAS_PRJ\qas>conda activate qas
+
+(qas) E:\{postgraduate_study}\Article and Code\EA_NAS_PRJ\qas>python -m qsearch.evolution_qsearch --pop_size 20 --n_gens 20
+Experiment dir : qas-QAS-VQE-20261109-175602
+11/09 05:56:02 PM args = Namespace(save='qas-QAS-VQE-20261109-175602', seed=0, n_qubits=4, min_layers=1, max_layers=6, pop_size=20, n_gens=20, n_offspring=20, vqe_steps=150, vqe_lr=0.05, vqe_restarts=2, cost_metric='gates', device='default.qubit', diff_method='backprop', no_cache=False)
+H2 (STO-3G, 0.735 A)
+  exact ground state : -1.1372838408 Ha
+  Hartree-Fock       : -1.1167593100 Ha
+  correlation energy : 0.0205245308 Ha
+  assertions passed
+11/09 05:56:05 PM Architecture id = 1
+11/09 05:56:05 PM L6|1,2,4,3,2;2,2,4,4,1;0,3,4,0,0;2,3,3,3,4;1,4,0,2,0;4,2,2,1,2
+11/09 05:56:19 PM   energy = -0.5360698832 Ha, error = 6.012e-01 Ha
+11/09 05:56:19 PM   n_gates = 38, n_cx = 17, depth = 16, n_params = 15
+11/09 05:56:19 PM Architecture id = 2
+11/09 05:56:19 PM L4|4,0,3,2,3;2,3,3,4,2;3,1,2,2,0;1,1,4,0,1
+11/09 05:56:31 PM   energy = -0.5344893194 Ha, error = 6.028e-01 Ha
+11/09 05:56:31 PM   n_gates = 24, n_cx = 10, depth = 12, n_params = 11
+11/09 05:56:31 PM Architecture id = 3
+11/09 05:56:31 PM L4|3,0,3,1,1;4,3,2,3,1;2,1,4,1,0;2,2,4,3,3
+11/09 05:56:42 PM   energy = -0.4541292939 Ha, error = 6.832e-01 Ha
+11/09 05:56:42 PM   n_gates = 24, n_cx = 9, depth = 13, n_params = 12
+11/09 05:56:42 PM Architecture id = 4
+11/09 05:56:42 PM L2|0,0,1,1,1;0,4,2,4,1
+11/09 05:56:53 PM   energy = -0.4344063610 Ha, error = 7.029e-01 Ha
+11/09 05:56:53 PM   n_gates = 11, n_cx = 6, depth = 8, n_params = 3
+11/09 05:56:53 PM Architecture id = 5
+11/09 05:56:53 PM L2|1,0,4,3,3;4,2,2,4,4
+11/09 05:57:02 PM   energy = -0.1563538985 Ha, error = 9.809e-01 Ha
+11/09 05:57:02 PM   n_gates = 16, n_cx = 9, depth = 8, n_params = 4
+11/09 05:57:02 PM Architecture id = 6
+11/09 05:57:02 PM L1|4,3,0,2,4
+11/09 05:57:06 PM   energy = -0.4401681174 Ha, error = 6.971e-01 Ha
+11/09 05:57:06 PM   n_gates = 9, n_cx = 6, depth = 4, n_params = 2
+11/09 05:57:06 PM Architecture id = 7
+11/09 05:57:06 PM L1|2,2,2,2,0
+11/09 05:57:10 PM   energy = -1.1167589558 Ha, error = 2.052e-02 Ha
+11/09 05:57:10 PM   n_gates = 4, n_cx = 0, depth = 1, n_params = 4
+11/09 05:57:10 PM Architecture id = 8
+11/09 05:57:10 PM L1|0,3,3,1,0
+11/09 05:57:14 PM   energy = -1.1167591269 Ha, error = 2.052e-02 Ha
+11/09 05:57:14 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 05:57:14 PM Architecture id = 9
+11/09 05:57:14 PM L2|3,1,4,3,3;4,0,0,0,4
+11/09 05:57:16 PM   energy = -0.1027901642 Ha, error = 1.034e+00 Ha
+11/09 05:57:16 PM   n_gates = 14, n_cx = 9, depth = 8, n_params = 3
+11/09 05:57:16 PM Architecture id = 10
+11/09 05:57:16 PM L5|3,3,2,1,1;1,2,2,4,1;3,1,1,2,1;3,4,3,4,2;0,4,0,4,2
+11/09 05:57:29 PM   energy = -1.1167544554 Ha, error = 2.053e-02 Ha
+11/09 05:57:29 PM   n_gates = 35, n_cx = 17, depth = 18, n_params = 13
+11/09 05:57:29 PM Architecture id = 11
+11/09 05:57:29 PM L4|4,3,1,1,2;4,0,1,4,2;0,1,2,0,4;0,1,4,0,4
+11/09 05:57:40 PM   energy = -0.6227979117 Ha, error = 5.145e-01 Ha
+11/09 05:57:40 PM   n_gates = 31, n_cx = 20, depth = 14, n_params = 7
+11/09 05:57:40 PM Architecture id = 12
+11/09 05:57:40 PM L6|0,1,1,4,0;3,2,3,4,2;2,1,2,4,3;1,4,0,2,3;1,3,2,3,2;2,4,3,2,4
+11/09 05:57:53 PM   energy = -0.8340854118 Ha, error = 3.032e-01 Ha
+11/09 05:57:53 PM   n_gates = 42, n_cx = 20, depth = 19, n_params = 17
+11/09 05:57:53 PM Architecture id = 13
+11/09 05:57:53 PM L4|0,2,2,1,4;4,4,3,1,3;4,1,2,4,3;4,1,3,2,4
+11/09 05:58:04 PM   energy = -0.6249730278 Ha, error = 5.123e-01 Ha
+11/09 05:58:04 PM   n_gates = 33, n_cx = 18, depth = 16, n_params = 10
+11/09 05:58:04 PM Architecture id = 14
+11/09 05:58:04 PM L4|4,4,2,1,2;0,3,3,0,2;4,4,4,0,4;1,3,1,0,4
+11/09 05:58:16 PM   energy = -0.6578379269 Ha, error = 4.794e-01 Ha
+11/09 05:58:16 PM   n_gates = 32, n_cx = 20, depth = 14, n_params = 7
+11/09 05:58:16 PM Architecture id = 15
+11/09 05:58:16 PM L6|0,4,3,3,4;3,1,4,2,0;1,1,4,2,3;2,2,4,2,0;1,0,3,2,4;2,0,1,1,1
+11/09 05:58:30 PM   energy = -0.8340274945 Ha, error = 3.033e-01 Ha
+11/09 05:58:30 PM   n_gates = 39, n_cx = 18, depth = 18, n_params = 17
+11/09 05:58:30 PM Architecture id = 16
+11/09 05:58:30 PM L5|2,4,4,3,3;4,4,4,4,4;0,1,3,4,0;4,4,4,3,0;2,0,4,4,0
+11/09 05:58:35 PM   energy = -0.0423236909 Ha, error = 1.095e+00 Ha
+11/09 05:58:35 PM   n_gates = 27, n_cx = 9, depth = 11, n_params = 6
+11/09 05:58:35 PM Architecture id = 17
+11/09 05:58:35 PM L4|0,1,0,0,3;0,3,0,1,3;2,0,3,3,0;3,2,2,3,2
+11/09 05:58:41 PM   energy = -0.5382052844 Ha, error = 5.991e-01 Ha
+11/09 05:58:41 PM   n_gates = 20, n_cx = 10, depth = 12, n_params = 10
+11/09 05:58:41 PM Architecture id = 18
+11/09 05:58:41 PM L4|1,3,4,0,1;1,4,0,4,0;4,0,4,2,4;4,4,2,4,2
+11/09 05:58:50 PM   energy = -0.8237663378 Ha, error = 3.135e-01 Ha
+11/09 05:58:50 PM   n_gates = 26, n_cx = 13, depth = 12, n_params = 5
+11/09 05:58:50 PM Architecture id = 19
+11/09 05:58:50 PM L4|2,4,2,1,3;3,0,0,1,4;3,3,3,4,2;0,4,3,2,2
+11/09 05:59:02 PM   energy = -0.4412767286 Ha, error = 6.960e-01 Ha
+11/09 05:59:02 PM   n_gates = 30, n_cx = 17, depth = 14, n_params = 10
+11/09 05:59:02 PM Architecture id = 20
+11/09 05:59:02 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,1,4,0;2,3,2,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 05:59:15 PM   energy = -1.1371848255 Ha, error = 9.901e-05 Ha
+11/09 05:59:15 PM   n_gates = 32, n_cx = 12, depth = 18, n_params = 13
+11/09 05:59:15 PM generation = 1
+11/09 05:59:15 PM population error: best = 9.901e-05, mean = 5.090e-01, median = 5.568e-01, worst = 1.095e+00
+11/09 05:59:15 PM population cost : best = 3.0, mean = 24.50, median = 26.50, worst = 42.0
+11/09 05:59:15 PM Architecture id = 21
+11/09 05:59:15 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,1,4,0;2,3,2,2,0;0,0,0,0,0;0,4,0,4,1
+11/09 05:59:24 PM   energy = -0.5307733233 Ha, error = 6.065e-01 Ha
+11/09 05:59:24 PM   n_gates = 22, n_cx = 6, depth = 11, n_params = 11
+11/09 05:59:24 PM Architecture id = 22
+11/09 05:59:24 PM L5|2,4,1,4,0;3,2,3,4,2;0,1,3,4,0;4,4,4,3,0;2,0,4,4,0
+11/09 05:59:35 PM   energy = -0.8377445139 Ha, error = 2.995e-01 Ha
+11/09 05:59:35 PM   n_gates = 22, n_cx = 4, depth = 7, n_params = 9
+11/09 05:59:35 PM Architecture id = 23
+11/09 05:59:35 PM L4|1,3,4,0,0;0,0,0,0,0;4,0,4,2,4;4,4,2,4,2
+11/09 05:59:43 PM   energy = -0.8274823658 Ha, error = 3.098e-01 Ha
+11/09 05:59:43 PM   n_gates = 20, n_cx = 10, depth = 8, n_params = 4
+11/09 05:59:43 PM Architecture id = 24
+11/09 05:59:43 PM L4|0,2,2,1,4;4,4,3,1,3;4,1,2,4,3;4,1,3,2,0
+11/09 05:59:55 PM   energy = -0.4115798684 Ha, error = 7.257e-01 Ha
+11/09 05:59:55 PM   n_gates = 27, n_cx = 12, depth = 13, n_params = 10
+11/09 05:59:55 PM Architecture id = 25
+11/09 05:59:55 PM L2|0,0,0,1,1;0,0,2,4,1
+11/09 06:00:04 PM   energy = -0.7811855654 Ha, error = 3.561e-01 Ha
+11/09 06:00:04 PM   n_gates = 9, n_cx = 6, depth = 8, n_params = 2
+11/09 06:00:04 PM Architecture id = 26
+11/09 06:00:04 PM L6|2,3,1,4,0;0,2,3,4,3;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,1
+11/09 06:00:09 PM   energy = -0.7811874419 Ha, error = 3.561e-01 Ha
+11/09 06:00:09 PM   n_gates = 14, n_cx = 6, depth = 9, n_params = 5
+11/09 06:00:09 PM Architecture id = 27
+11/09 06:00:09 PM L4|1,3,4,0,1;1,4,0,4,2;2,1,2,2,4;4,4,2,4,2
+11/09 06:00:21 PM   energy = -0.6604267492 Ha, error = 4.769e-01 Ha
+11/09 06:00:21 PM   n_gates = 31, n_cx = 17, depth = 14, n_params = 8
+11/09 06:00:21 PM Architecture id = 28
+11/09 06:00:21 PM L2|1,0,3,1,1;4,3,2,4,4
+11/09 06:00:31 PM   energy = -0.4937317772 Ha, error = 6.436e-01 Ha
+11/09 06:00:31 PM   n_gates = 16, n_cx = 9, depth = 8, n_params = 5
+11/09 06:00:31 PM Architecture id = 29
+11/09 06:00:31 PM L2|3,1,0,2,4;0,0,0,0,0
+11/09 06:00:38 PM   energy = -1.1167592988 Ha, error = 2.052e-02 Ha
+11/09 06:00:38 PM   n_gates = 9, n_cx = 6, depth = 4, n_params = 3
+11/09 06:00:38 PM Architecture id = 30
+11/09 06:00:38 PM L2|0,1,1,1,1;0,4,2,4,1
+11/09 06:00:48 PM   energy = -0.6125358359 Ha, error = 5.247e-01 Ha
+11/09 06:00:48 PM   n_gates = 12, n_cx = 6, depth = 8, n_params = 4
+11/09 06:00:48 PM Architecture id = 31
+11/09 06:00:48 PM L6|0,1,4,3,3;4,4,4,4,4;2,1,2,4,3;1,4,0,2,3;1,3,2,3,2;2,4,3,2,4
+11/09 06:01:04 PM   energy = -0.7946984148 Ha, error = 3.426e-01 Ha
+11/09 06:01:04 PM   n_gates = 47, n_cx = 25, depth = 23, n_params = 14
+11/09 06:01:04 PM Architecture id = 32
+11/09 06:01:04 PM L1|0,3,3,0,1
+11/09 06:01:04 PM   energy = -0.5382054500 Ha, error = 5.991e-01 Ha
+11/09 06:01:04 PM   n_gates = 5, n_cx = 3, depth = 4, n_params = 2
+11/09 06:01:04 PM Architecture id = 33
+11/09 06:01:04 PM L4|2,4,2,1,3;3,4,0,1,4;3,3,3,4,2;0,4,3,2,2
+11/09 06:01:16 PM   energy = -0.3110553867 Ha, error = 8.262e-01 Ha
+11/09 06:01:16 PM   n_gates = 31, n_cx = 17, depth = 14, n_params = 10
+11/09 06:01:16 PM Architecture id = 34
+11/09 06:01:16 PM L6|0,1,1,4,0;3,2,3,4,0;4,0,4,4,3;1,4,0,2,3;1,3,2,3,2;2,4,3,2,4
+11/09 06:01:30 PM   energy = -1.1372829565 Ha, error = 8.779e-07 Ha
+11/09 06:01:30 PM   n_gates = 37, n_cx = 16, depth = 17, n_params = 14
+11/09 06:01:30 PM Architecture id = 35
+11/09 06:01:30 PM L4|3,0,4,3,3;4,2,2,3,1;2,1,4,1,0;2,2,4,3,3
+11/09 06:01:42 PM   energy = -0.5247593495 Ha, error = 6.125e-01 Ha
+11/09 06:01:42 PM   n_gates = 24, n_cx = 9, depth = 13, n_params = 11
+11/09 06:01:42 PM Architecture id = 36
+11/09 06:01:42 PM L1|4,3,0,3,3
+11/09 06:01:42 PM   energy = -0.0913423700 Ha, error = 1.046e+00 Ha
+11/09 06:01:42 PM   n_gates = 6, n_cx = 3, depth = 4, n_params = 2
+11/09 06:01:42 PM Architecture id = 37
+11/09 06:01:42 PM L5|4,3,0,2,4;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,4,4,1
+11/09 06:01:49 PM   energy = -0.4428908844 Ha, error = 6.944e-01 Ha
+11/09 06:01:49 PM   n_gates = 14, n_cx = 9, depth = 8, n_params = 2
+11/09 06:01:49 PM Architecture id = 38
+11/09 06:01:49 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;2,3,2,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:02:02 PM   energy = -1.1372834731 Ha, error = 3.613e-07 Ha
+11/09 06:02:02 PM   n_gates = 32, n_cx = 12, depth = 18, n_params = 13
+11/09 06:02:02 PM Architecture id = 39
+11/09 06:02:02 PM L1|2,4,4,3,3
+11/09 06:02:09 PM   energy = -0.0001186602 Ha, error = 1.137e+00 Ha
+11/09 06:02:09 PM   n_gates = 7, n_cx = 3, depth = 4, n_params = 2
+11/09 06:02:09 PM Architecture id = 40
+11/09 06:02:09 PM L4|0,2,2,1,4;4,4,3,1,3;4,1,1,4,3;4,1,3,2,4
+11/09 06:02:23 PM   energy = -0.8274823165 Ha, error = 3.098e-01 Ha
+11/09 06:02:23 PM   n_gates = 33, n_cx = 18, depth = 16, n_params = 10
+11/09 06:02:23 PM generation = 2
+11/09 06:02:23 PM population error: best = 3.613e-07, mean = 2.921e-01, median = 3.065e-01, worst = 1.046e+00
+11/09 06:02:23 PM population cost : best = 3.0, mean = 21.80, median = 21.00, worst = 47.0
+11/09 06:02:23 PM Architecture id = 41
+11/09 06:02:23 PM L1|4,3,0,3,1
+11/09 06:02:23 PM   energy = -0.0913423700 Ha, error = 1.046e+00 Ha
+11/09 06:02:23 PM   n_gates = 6, n_cx = 3, depth = 4, n_params = 2
+11/09 06:02:23 PM Architecture id = 42
+11/09 06:02:23 PM L4|1,3,4,0,1;0,4,2,4,0;4,0,4,2,4;4,4,2,4,2
+11/09 06:02:31 PM   energy = -0.8237663056 Ha, error = 3.135e-01 Ha
+11/09 06:02:31 PM   n_gates = 26, n_cx = 13, depth = 12, n_params = 5
+11/09 06:02:31 PM Architecture id = 43
+11/09 06:02:31 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,1,4,0;2,3,2,2,3;3,1,4,3,2;2,4,3,2,4
+11/09 06:02:45 PM   energy = -0.8344093356 Ha, error = 3.029e-01 Ha
+11/09 06:02:45 PM   n_gates = 38, n_cx = 16, depth = 17, n_params = 17
+11/09 06:02:45 PM Architecture id = 44
+11/09 06:02:45 PM L6|0,1,4,3,3;4,4,4,4,4;2,1,2,3,3;1,4,3,4,2;0,4,0,4,2;0,0,0,0,4
+11/09 06:02:55 PM   energy = -0.4909712918 Ha, error = 6.463e-01 Ha
+11/09 06:02:55 PM   n_gates = 43, n_cx = 26, depth = 21, n_params = 8
+11/09 06:02:55 PM Architecture id = 45
+11/09 06:02:55 PM L4|1,3,4,0,1;1,4,0,4,0;4,0,4,2,4;2,3,2,2,3
+11/09 06:03:06 PM   energy = -0.8340761409 Ha, error = 3.032e-01 Ha
+11/09 06:03:06 PM   n_gates = 25, n_cx = 12, depth = 13, n_params = 8
+11/09 06:03:06 PM Architecture id = 46
+11/09 06:03:06 PM L6|0,2,1,4,0;3,2,3,4,2;2,1,3,4,0;4,4,0,2,3;1,3,2,3,2;2,3,3,2,4
+11/09 06:03:21 PM   energy = -1.1176184985 Ha, error = 1.967e-02 Ha
+11/09 06:03:21 PM   n_gates = 39, n_cx = 17, depth = 16, n_params = 17
+11/09 06:03:21 PM Architecture id = 47
+11/09 06:03:21 PM L1|0,3,3,0,3
+11/09 06:03:21 PM   energy = 0.3555207100 Ha, error = 1.493e+00 Ha
+11/09 06:03:21 PM   n_gates = 5, n_cx = 3, depth = 4, n_params = 2
+11/09 06:03:21 PM Architecture id = 48
+11/09 06:03:21 PM L6|0,1,1,4,0;3,2,3,4,2;2,1,2,4,3;1,0,0,0,0;0,0,0,0,0;0,0,0,2,4
+11/09 06:03:33 PM   energy = -0.5380944655 Ha, error = 5.992e-01 Ha
+11/09 06:03:33 PM   n_gates = 26, n_cx = 13, depth = 13, n_params = 10
+11/09 06:03:33 PM Architecture id = 49
+11/09 06:03:33 PM L6|0,1,1,4,0;3,2,3,4,0;4,0,4,4,3;1,4,0,2,3;1,3,2,4,3;0,4,0,4,1
+11/09 06:03:44 PM   energy = -0.7331583985 Ha, error = 4.041e-01 Ha
+11/09 06:03:44 PM   n_gates = 31, n_cx = 12, depth = 18, n_params = 10
+11/09 06:03:44 PM Architecture id = 50
+11/09 06:03:44 PM L5|3,3,2,1,1;1,2,2,4,1;3,1,1,2,1;3,4,0,2,3;1,3,2,3,2
+11/09 06:03:58 PM   energy = -1.1372824291 Ha, error = 1.405e-06 Ha
+11/09 06:03:58 PM   n_gates = 35, n_cx = 16, depth = 19, n_params = 17
+11/09 06:03:58 PM Architecture id = 51
+11/09 06:03:58 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,1,4,0;4,4,2,4,2;0,0,0,0,3;0,4,0,4,1
+11/09 06:04:09 PM   energy = -0.6604288547 Ha, error = 4.769e-01 Ha
+11/09 06:04:09 PM   n_gates = 29, n_cx = 13, depth = 16, n_params = 8
+11/09 06:04:09 PM Architecture id = 52
+11/09 06:04:09 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:04:20 PM   energy = -1.1372823953 Ha, error = 1.439e-06 Ha
+11/09 06:04:20 PM   n_gates = 28, n_cx = 12, depth = 18, n_params = 10
+11/09 06:04:20 PM Architecture id = 53
+11/09 06:04:20 PM L5|2,4,1,4,0;3,2,3,4,2;0,1,2,4,3;1,4,4,3,0;2,0,4,4,0
+11/09 06:04:31 PM   energy = -0.8274756302 Ha, error = 3.098e-01 Ha
+11/09 06:04:31 PM   n_gates = 25, n_cx = 7, depth = 10, n_params = 10
+11/09 06:04:31 PM Architecture id = 54
+11/09 06:04:31 PM L5|2,4,1,4,0;3,2,3,4,0;4,0,4,4,3;1,4,4,3,0;2,0,4,4,0
+11/09 06:04:42 PM   energy = -1.1167591844 Ha, error = 2.052e-02 Ha
+11/09 06:04:42 PM   n_gates = 21, n_cx = 3, depth = 8, n_params = 8
+11/09 06:04:42 PM Architecture id = 55
+11/09 06:04:42 PM L6|3,3,1,4,0;0,2,3,4,3;0,1,2,4,0;0,0,0,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:04:55 PM   energy = -1.1167565936 Ha, error = 2.053e-02 Ha
+11/09 06:04:55 PM   n_gates = 29, n_cx = 12, depth = 18, n_params = 10
+11/09 06:04:55 PM Architecture id = 56
+11/09 06:04:55 PM L1|0,3,2,1,1
+11/09 06:04:59 PM   energy = -0.5382053564 Ha, error = 5.991e-01 Ha
+11/09 06:04:59 PM   n_gates = 6, n_cx = 3, depth = 4, n_params = 3
+11/09 06:04:59 PM Architecture id = 57
+11/09 06:04:59 PM L6|0,1,1,4,0;3,2,3,4,2;0,1,3,4,0;4,4,0,2,3;1,3,2,3,2;2,4,3,2,4
+11/09 06:05:11 PM   energy = -0.8377371406 Ha, error = 2.995e-01 Ha
+11/09 06:05:11 PM   n_gates = 38, n_cx = 17, depth = 16, n_params = 15
+11/09 06:05:11 PM Architecture id = 58
+11/09 06:05:11 PM L4|1,3,4,0,0;0,0,0,0,0;4,0,4,2,0;0,0,0,0,0
+11/09 06:05:15 PM   energy = -0.8274822874 Ha, error = 3.098e-01 Ha
+11/09 06:05:15 PM   n_gates = 6, n_cx = 0, depth = 2, n_params = 3
+11/09 06:05:15 PM Architecture id = 59
+11/09 06:05:15 PM L5|3,3,3,1,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,2
+11/09 06:05:15 PM   energy = -0.1490849800 Ha, error = 9.882e-01 Ha
+11/09 06:05:15 PM   n_gates = 9, n_cx = 4, depth = 4, n_params = 4
+11/09 06:05:15 PM Architecture id = 60
+11/09 06:05:15 PM L5|3,3,2,1,1;1,2,3,3,2;2,1,2,4,3;1,4,0,2,3;1,3,2,4,2
+11/09 06:05:29 PM   energy = -0.8401609826 Ha, error = 2.971e-01 Ha
+11/09 06:05:29 PM   n_gates = 36, n_cx = 17, depth = 18, n_params = 16
+11/09 06:05:29 PM generation = 3
+11/09 06:05:29 PM population error: best = 3.613e-07, mean = 2.206e-01, median = 2.053e-02, worst = 1.493e+00
+11/09 06:05:29 PM population cost : best = 3.0, mean = 20.35, median = 21.50, worst = 39.0
+11/09 06:05:29 PM Architecture id = 61
+11/09 06:05:29 PM L5|3,3,2,1,1;1,2,0,0,0;0,0,0,0,0;0,4,3,4,2;0,4,0,4,2
+11/09 06:05:37 PM   energy = -0.3320273482 Ha, error = 8.053e-01 Ha
+11/09 06:05:37 PM   n_gates = 22, n_cx = 11, depth = 11, n_params = 7
+11/09 06:05:37 PM Architecture id = 62
+11/09 06:05:37 PM L6|0,2,1,4,0;3,2,3,4,2;0,1,3,4,0;4,4,4,3,0;2,0,3,4,0;2,3,3,2,4
+11/09 06:05:48 PM   energy = -0.3110569251 Ha, error = 8.262e-01 Ha
+11/09 06:05:48 PM   n_gates = 31, n_cx = 10, depth = 11, n_params = 14
+11/09 06:05:48 PM Architecture id = 63
+11/09 06:05:48 PM L2|1,3,4,4,0;0,2,3,4,3
+11/09 06:05:57 PM   energy = -0.4438831844 Ha, error = 6.934e-01 Ha
+11/09 06:05:57 PM   n_gates = 10, n_cx = 3, depth = 5, n_params = 4
+11/09 06:05:57 PM Architecture id = 64
+11/09 06:05:57 PM L1|2,3,3,0,1
+11/09 06:06:02 PM   energy = -0.5382054419 Ha, error = 5.991e-01 Ha
+11/09 06:06:02 PM   n_gates = 6, n_cx = 3, depth = 4, n_params = 3
+11/09 06:06:02 PM Architecture id = 65
+11/09 06:06:02 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,1,4,0;2,4,0,2,3;1,3,2,3,2;2,4,0,4,1
+11/09 06:06:16 PM   energy = -0.7727572413 Ha, error = 3.645e-01 Ha
+11/09 06:06:16 PM   n_gates = 33, n_cx = 13, depth = 17, n_params = 14
+11/09 06:06:16 PM Architecture id = 66
+11/09 06:06:16 PM L1|2,1,2,2,0
+11/09 06:06:20 PM   energy = -1.1167589558 Ha, error = 2.052e-02 Ha
+11/09 06:06:20 PM   n_gates = 4, n_cx = 0, depth = 1, n_params = 4
+11/09 06:06:20 PM Architecture id = 67
+11/09 06:06:20 PM L6|0,1,1,4,0;3,2,3,4,0;4,0,4,4,3;1,4,0,0,0;0,0,0,0,0;0,4,3,2,4
+11/09 06:06:31 PM   energy = -0.8340285920 Ha, error = 3.033e-01 Ha
+11/09 06:06:31 PM   n_gates = 24, n_cx = 9, depth = 11, n_params = 8
+11/09 06:06:31 PM Architecture id = 68
+11/09 06:06:31 PM L5|2,4,1,4,0;3,2,3,4,2;2,1,3,4,0;4,4,0,2,3;1,3,2,3,2
+11/09 06:06:45 PM   energy = -0.8438777780 Ha, error = 2.934e-01 Ha
+11/09 06:06:45 PM   n_gates = 30, n_cx = 11, depth = 12, n_params = 13
+11/09 06:06:45 PM Architecture id = 69
+11/09 06:06:45 PM L6|2,3,1,0,2;1,4,0,4,0;4,0,4,2,4;2,3,2,2,3;3,1,4,4,1;0,4,0,4,1
+11/09 06:06:59 PM   energy = -0.8349093377 Ha, error = 3.024e-01 Ha
+11/09 06:06:59 PM   n_gates = 38, n_cx = 19, depth = 20, n_params = 11
+11/09 06:06:59 PM Architecture id = 70
+11/09 06:06:59 PM L6|0,2,1,4,0;3,2,3,4,2;0,0,0,0,0;0,0,0,0,0;0,0,0,0,2;2,3,3,2,4
+11/09 06:07:05 PM   energy = -0.5382051667 Ha, error = 5.991e-01 Ha
+11/09 06:07:05 PM   n_gates = 25, n_cx = 14, depth = 10, n_params = 9
+11/09 06:07:05 PM Architecture id = 71
+11/09 06:07:05 PM L1|0,2,2,2,0
+11/09 06:07:09 PM   energy = -1.1167592305 Ha, error = 2.052e-02 Ha
+11/09 06:07:09 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 06:07:09 PM Architecture id = 72
+11/09 06:07:09 PM L6|2,3,1,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,4,4,3;0,4,0,4,1
+11/09 06:07:14 PM   energy = -0.2684790917 Ha, error = 8.688e-01 Ha
+11/09 06:07:14 PM   n_gates = 14, n_cx = 6, depth = 9, n_params = 3
+11/09 06:07:14 PM Architecture id = 73
+11/09 06:07:14 PM L5|2,4,1,4,0;3,2,3,4,0;4,0,4,4,3;1,0,0,0,0;0,0,0,0,0
+11/09 06:07:24 PM   energy = -0.7883903964 Ha, error = 3.489e-01 Ha
+11/09 06:07:24 PM   n_gates = 15, n_cx = 3, depth = 7, n_params = 6
+11/09 06:07:24 PM Architecture id = 74
+11/09 06:07:24 PM L6|0,1,1,4,0;3,2,3,4,0;4,0,4,4,3;1,3,2,2,3;3,1,4,4,3;0,4,3,2,4
+11/09 06:07:34 PM   energy = -0.5344840210 Ha, error = 6.028e-01 Ha
+11/09 06:07:34 PM   n_gates = 36, n_cx = 15, depth = 18, n_params = 13
+11/09 06:07:34 PM Architecture id = 75
+11/09 06:07:34 PM L6|2,3,2,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,0;0,0,0,0,0;0,0,0,4,1
+11/09 06:07:42 PM   energy = -1.1167569212 Ha, error = 2.053e-02 Ha
+11/09 06:07:42 PM   n_gates = 17, n_cx = 6, depth = 11, n_params = 8
+11/09 06:07:42 PM Architecture id = 76
+11/09 06:07:42 PM L6|0,1,1,4,0;3,2,3,4,0;4,0,4,0,0;0,0,0,0,0;1,3,2,3,2;2,4,3,2,4
+11/09 06:07:52 PM   energy = -0.7811787482 Ha, error = 3.561e-01 Ha
+11/09 06:07:52 PM   n_gates = 27, n_cx = 10, depth = 10, n_params = 12
+11/09 06:07:52 PM Architecture id = 77
+11/09 06:07:52 PM L6|3,3,1,4,0;0,2,3,4,3;0,1,2,4,0;0,0,0,2,3;3,3,4,4,3;0,4,0,4,1
+11/09 06:08:03 PM   energy = -1.1167564653 Ha, error = 2.053e-02 Ha
+11/09 06:08:03 PM   n_gates = 29, n_cx = 12, depth = 18, n_params = 10
+11/09 06:08:03 PM Architecture id = 78
+11/09 06:08:03 PM L6|0,2,1,4,0;3,2,3,4,2;2,1,0,2,1;3,4,3,4,2;0,4,0,4,2;2,1,3,2,4
+11/09 06:08:17 PM   energy = -0.5309238791 Ha, error = 6.064e-01 Ha
+11/09 06:08:17 PM   n_gates = 41, n_cx = 21, depth = 18, n_params = 14
+11/09 06:08:17 PM Architecture id = 79
+11/09 06:08:17 PM L5|3,3,2,1,1;1,2,2,4,1;3,1,3,4,0;4,4,0,2,3;1,3,2,3,2
+11/09 06:08:29 PM   energy = -1.1167479911 Ha, error = 2.054e-02 Ha
+11/09 06:08:29 PM   n_gates = 32, n_cx = 13, depth = 16, n_params = 15
+11/09 06:08:29 PM Architecture id = 80
+11/09 06:08:29 PM L6|2,3,1,4,0;0,0,0,0,3;0,1,2,4,0;2,3,2,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:08:39 PM   energy = -0.5307732021 Ha, error = 6.065e-01 Ha
+11/09 06:08:39 PM   n_gates = 29, n_cx = 12, depth = 17, n_params = 11
+11/09 06:08:39 PM generation = 4
+11/09 06:08:39 PM population error: best = 3.613e-07, mean = 1.920e-01, median = 2.052e-02, worst = 1.493e+00
+11/09 06:08:39 PM population cost : best = 3.0, mean = 17.55, median = 15.50, worst = 39.0
+11/09 06:08:39 PM Architecture id = 81
+11/09 06:08:39 PM L6|3,3,2,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,0;0,0,0,0,0;0,0,0,4,1
+11/09 06:08:46 PM   energy = -1.1167569217 Ha, error = 2.053e-02 Ha
+11/09 06:08:46 PM   n_gates = 17, n_cx = 6, depth = 11, n_params = 8
+11/09 06:08:46 PM Architecture id = 82
+11/09 06:08:46 PM L5|2,4,1,4,0;3,2,3,4,0;4,0,2,4,3;1,4,4,3,0;2,0,4,3,2
+11/09 06:08:57 PM   energy = -0.8340249256 Ha, error = 3.033e-01 Ha
+11/09 06:08:57 PM   n_gates = 25, n_cx = 7, depth = 10, n_params = 10
+11/09 06:08:57 PM Architecture id = 83
+11/09 06:08:57 PM L5|2,3,1,4,0;0,2,3,4,3;0,1,1,4,0;2,3,2,2,3;3,1,4,4,3
+11/09 06:09:08 PM   energy = -1.1167593026 Ha, error = 2.052e-02 Ha
+11/09 06:09:08 PM   n_gates = 27, n_cx = 9, depth = 14, n_params = 13
+11/09 06:09:08 PM Architecture id = 84
+11/09 06:09:08 PM L4|1,3,4,0,0;0,0,0,0,2;2,1,3,4,0;4,3,0,2,3
+11/09 06:09:17 PM   energy = -0.5307706342 Ha, error = 6.065e-01 Ha
+11/09 06:09:17 PM   n_gates = 17, n_cx = 7, depth = 8, n_params = 7
+11/09 06:09:17 PM Architecture id = 85
+11/09 06:09:17 PM L6|2,3,1,4,0;0,0,0,0,0;0,0,0,0,0;2,3,2,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:09:26 PM   energy = -0.4881945752 Ha, error = 6.491e-01 Ha
+11/09 06:09:26 PM   n_gates = 23, n_cx = 9, depth = 13, n_params = 9
+11/09 06:09:26 PM Architecture id = 86
+11/09 06:09:26 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;0,0,0,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:09:38 PM   energy = -1.1372834386 Ha, error = 3.958e-07 Ha
+11/09 06:09:38 PM   n_gates = 29, n_cx = 12, depth = 18, n_params = 10
+11/09 06:09:38 PM Architecture id = 87
+11/09 06:09:38 PM L6|0,0,1,4,0;3,2,3,4,0;4,0,4,4,3;1,4,0,2,3;1,3,2,4,0;2,4,3,2,4
+11/09 06:09:48 PM   energy = -1.1167528753 Ha, error = 2.053e-02 Ha
+11/09 06:09:48 PM   n_gates = 32, n_cx = 12, depth = 15, n_params = 12
+11/09 06:09:48 PM Architecture id = 88
+11/09 06:09:48 PM L1|2,2,1,2,0
+11/09 06:09:53 PM   energy = -1.1167589558 Ha, error = 2.052e-02 Ha
+11/09 06:09:53 PM   n_gates = 4, n_cx = 0, depth = 1, n_params = 4
+11/09 06:09:53 PM Architecture id = 89
+11/09 06:09:53 PM L6|0,2,1,4,0;3,2,3,4,0;4,0,4,2,0;0,0,0,0,0;1,3,2,3,2;2,3,3,2,4
+11/09 06:10:04 PM   energy = -0.8274821030 Ha, error = 3.098e-01 Ha
+11/09 06:10:04 PM   n_gates = 28, n_cx = 10, depth = 10, n_params = 14
+11/09 06:10:04 PM Architecture id = 90
+11/09 06:10:04 PM L5|2,4,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,4,3,0;2,0,4,4,0
+11/09 06:10:15 PM   energy = -0.7815143458 Ha, error = 3.558e-01 Ha
+11/09 06:10:15 PM   n_gates = 17, n_cx = 3, depth = 8, n_params = 8
+11/09 06:10:15 PM Architecture id = 91
+11/09 06:10:15 PM L6|0,2,2,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,1,4,4,3;0,4,0,4,1
+11/09 06:10:24 PM   energy = -1.1167591092 Ha, error = 2.052e-02 Ha
+11/09 06:10:24 PM   n_gates = 14, n_cx = 6, depth = 9, n_params = 4
+11/09 06:10:24 PM Architecture id = 92
+11/09 06:10:24 PM L6|2,3,1,1,0;0,0,0,0,3;0,1,2,4,0;2,3,2,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:10:37 PM   energy = -1.1167563024 Ha, error = 2.053e-02 Ha
+11/09 06:10:37 PM   n_gates = 29, n_cx = 12, depth = 17, n_params = 12
+11/09 06:10:37 PM Architecture id = 93
+11/09 06:10:37 PM L6|2,3,1,4,0;3,2,3,4,0;4,0,4,4,3;1,4,0,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:10:47 PM   energy = -1.1167593063 Ha, error = 2.052e-02 Ha
+11/09 06:10:47 PM   n_gates = 32, n_cx = 12, depth = 18, n_params = 10
+11/09 06:10:47 PM Architecture id = 94
+11/09 06:10:47 PM L1|3,3,1,4,0
+11/09 06:10:51 PM   energy = -0.7811872917 Ha, error = 3.561e-01 Ha
+11/09 06:10:51 PM   n_gates = 4, n_cx = 0, depth = 1, n_params = 3
+11/09 06:10:51 PM Architecture id = 95
+11/09 06:10:51 PM L1|0,3,3,4,0
+11/09 06:10:51 PM   energy = -0.7811875700 Ha, error = 3.561e-01 Ha
+11/09 06:10:51 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:10:51 PM Architecture id = 96
+11/09 06:10:51 PM L6|2,3,2,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,3,1
+11/09 06:11:01 PM   energy = -0.5307646623 Ha, error = 6.065e-01 Ha
+11/09 06:11:01 PM   n_gates = 16, n_cx = 6, depth = 10, n_params = 8
+11/09 06:11:01 PM Architecture id = 97
+11/09 06:11:01 PM L5|2,4,1,4,0;3,1,3,4,0;4,0,4,4,3;1,0,0,0,0;0,0,4,4,0
+11/09 06:11:09 PM   energy = -0.8274823764 Ha, error = 3.098e-01 Ha
+11/09 06:11:09 PM   n_gates = 17, n_cx = 3, depth = 8, n_params = 6
+11/09 06:11:09 PM Architecture id = 98
+11/09 06:11:09 PM L6|0,2,1,4,0;3,2,3,4,2;2,0,3,4,0;0,0,0,0,0;0,0,0,0,0;0,0,3,2,4
+11/09 06:11:18 PM   energy = -1.1167593087 Ha, error = 2.052e-02 Ha
+11/09 06:11:18 PM   n_gates = 22, n_cx = 10, depth = 9, n_params = 9
+11/09 06:11:18 PM Architecture id = 99
+11/09 06:11:18 PM L4|1,3,4,0,0;0,0,0,0,0;4,0,4,1,0;4,4,0,2,3
+11/09 06:11:27 PM   energy = -0.1576847447 Ha, error = 9.796e-01 Ha
+11/09 06:11:27 PM   n_gates = 12, n_cx = 3, depth = 6, n_params = 4
+11/09 06:11:27 PM Architecture id = 100
+11/09 06:11:27 PM L6|0,3,3,1,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,2;2,4,3,2,4
+11/09 06:11:32 PM   energy = -0.8237662445 Ha, error = 3.135e-01 Ha
+11/09 06:11:32 PM   n_gates = 17, n_cx = 10, depth = 7, n_params = 6
+11/09 06:11:32 PM generation = 5
+11/09 06:11:32 PM population error: best = 3.613e-07, mean = 3.111e-02, median = 2.052e-02, worst = 3.561e-01
+11/09 06:11:32 PM population cost : best = 3.0, mean = 19.75, median = 21.50, worst = 39.0
+11/09 06:11:32 PM Architecture id = 101
+11/09 06:11:32 PM L6|0,2,1,4,0;3,2,3,4,0;4,0,3,4,0;0,0,0,0,0;0,0,0,0,0;0,0,3,2,4
+11/09 06:11:42 PM   energy = -0.5307732837 Ha, error = 6.065e-01 Ha
+11/09 06:11:42 PM   n_gates = 18, n_cx = 6, depth = 7, n_params = 8
+11/09 06:11:42 PM Architecture id = 102
+11/09 06:11:42 PM L6|3,3,2,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,1
+11/09 06:11:46 PM   energy = -0.5382052061 Ha, error = 5.991e-01 Ha
+11/09 06:11:46 PM   n_gates = 8, n_cx = 3, depth = 5, n_params = 3
+11/09 06:11:46 PM Architecture id = 103
+11/09 06:11:46 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;2,1,4,4,3;0,4,0,4,1
+11/09 06:11:58 PM   energy = -1.1372837050 Ha, error = 1.294e-07 Ha
+11/09 06:11:58 PM   n_gates = 28, n_cx = 12, depth = 18, n_params = 10
+11/09 06:11:58 PM Architecture id = 104
+11/09 06:11:58 PM L6|3,3,2,4,0;0,2,3,4,2;2,0,3,0,0;0,0,0,2,0;1,0,0,0,0;0,0,0,4,1
+11/09 06:12:07 PM   energy = -0.5381968624 Ha, error = 5.991e-01 Ha
+11/09 06:12:07 PM   n_gates = 19, n_cx = 7, depth = 11, n_params = 9
+11/09 06:12:07 PM Architecture id = 105
+11/09 06:12:07 PM L1|0,2,0,2,0
+11/09 06:12:11 PM   energy = -1.1167592881 Ha, error = 2.052e-02 Ha
+11/09 06:12:11 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:12:11 PM Architecture id = 106
+11/09 06:12:11 PM L6|0,1,1,4,0;3,2,3,4,2;1,0,4,4,3;1,4,0,2,3;1,3,2,3,2;2,4,3,2,4
+11/09 06:12:26 PM   energy = -0.5310136817 Ha, error = 6.063e-01 Ha
+11/09 06:12:26 PM   n_gates = 41, n_cx = 20, depth = 19, n_params = 15
+11/09 06:12:26 PM Architecture id = 107
+11/09 06:12:26 PM L1|2,2,2,1,0
+11/09 06:12:30 PM   energy = -1.1167589558 Ha, error = 2.052e-02 Ha
+11/09 06:12:30 PM   n_gates = 4, n_cx = 0, depth = 1, n_params = 4
+11/09 06:12:30 PM Architecture id = 108
+11/09 06:12:30 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;0,0,0,2,3;3,1,4,4,3;0,4,0,4,0
+11/09 06:12:41 PM   energy = -1.1167591736 Ha, error = 2.052e-02 Ha
+11/09 06:12:41 PM   n_gates = 26, n_cx = 9, depth = 15, n_params = 10
+11/09 06:12:41 PM Architecture id = 109
+11/09 06:12:41 PM L6|0,2,1,4,0;3,2,3,4,3;0,1,2,4,0;0,0,0,0,0;0,0,0,0,0;0,0,3,2,4
+11/09 06:12:52 PM   energy = -0.5382028825 Ha, error = 5.991e-01 Ha
+11/09 06:12:52 PM   n_gates = 21, n_cx = 9, depth = 10, n_params = 9
+11/09 06:12:52 PM Architecture id = 110
+11/09 06:12:52 PM L6|3,3,2,4,0;0,2,3,4,3;0,1,4,4,3;1,4,0,2,3;1,3,2,3,2;2,4,0,4,1
+11/09 06:13:06 PM   energy = -0.7727577782 Ha, error = 3.645e-01 Ha
+11/09 06:13:06 PM   n_gates = 36, n_cx = 16, depth = 20, n_params = 13
+11/09 06:13:06 PM Architecture id = 111
+11/09 06:13:06 PM L1|0,3,2,2,0
+11/09 06:13:11 PM   energy = -1.1167591636 Ha, error = 2.052e-02 Ha
+11/09 06:13:11 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 06:13:11 PM Architecture id = 112
+11/09 06:13:11 PM L6|3,1,0,2,4;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,3;0,4,0,4,1
+11/09 06:13:21 PM   energy = -0.4881942766 Ha, error = 6.491e-01 Ha
+11/09 06:13:21 PM   n_gates = 18, n_cx = 12, depth = 12, n_params = 3
+11/09 06:13:21 PM Architecture id = 113
+11/09 06:13:21 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,1
+11/09 06:13:27 PM   energy = -0.7811875381 Ha, error = 3.561e-01 Ha
+11/09 06:13:27 PM   n_gates = 15, n_cx = 6, depth = 10, n_params = 6
+11/09 06:13:27 PM Architecture id = 114
+11/09 06:13:27 PM L6|0,1,1,4,0;3,2,3,4,0;4,0,2,0,0;0,0,0,2,0;0,0,0,0,0;0,0,3,2,4
+11/09 06:13:36 PM   energy = -0.5307733578 Ha, error = 6.065e-01 Ha
+11/09 06:13:36 PM   n_gates = 18, n_cx = 6, depth = 8, n_params = 9
+11/09 06:13:36 PM Architecture id = 115
+11/09 06:13:36 PM L6|0,2,3,1,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,1,4,4,3;0,4,0,4,1
+11/09 06:13:44 PM   energy = -0.4456158246 Ha, error = 6.917e-01 Ha
+11/09 06:13:44 PM   n_gates = 14, n_cx = 6, depth = 9, n_params = 4
+11/09 06:13:44 PM Architecture id = 116
+11/09 06:13:44 PM L2|2,3,1,4,0;0,2,3,4,3
+11/09 06:13:53 PM   energy = -0.5307725650 Ha, error = 6.065e-01 Ha
+11/09 06:13:53 PM   n_gates = 10, n_cx = 3, depth = 5, n_params = 5
+11/09 06:13:53 PM Architecture id = 117
+11/09 06:13:53 PM L6|3,3,2,4,0;0,2,3,4,3;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,1
+11/09 06:13:59 PM   energy = -0.7811874451 Ha, error = 3.561e-01 Ha
+11/09 06:13:59 PM   n_gates = 14, n_cx = 6, depth = 9, n_params = 5
+11/09 06:13:59 PM Architecture id = 118
+11/09 06:13:59 PM L6|0,2,1,4,0;3,2,3,4,2;2,0,3,0,0;0,0,1,0,0;0,0,0,0,0;0,0,3,2,4
+11/09 06:14:04 PM   energy = -1.1167591942 Ha, error = 2.052e-02 Ha
+11/09 06:14:04 PM   n_gates = 22, n_cx = 10, depth = 10, n_params = 10
+11/09 06:14:04 PM Architecture id = 119
+11/09 06:14:04 PM L5|2,3,1,4,0;0,2,3,4,2;2,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:14:15 PM   energy = -1.1372769638 Ha, error = 6.871e-06 Ha
+11/09 06:14:15 PM   n_gates = 18, n_cx = 7, depth = 9, n_params = 7
+11/09 06:14:15 PM Architecture id = 120
+11/09 06:14:15 PM L6|0,2,1,4,0;3,2,3,4,3;0,1,1,4,0;2,3,2,2,3;3,1,4,0,0;0,0,3,2,4
+11/09 06:14:28 PM   energy = -1.1167581701 Ha, error = 2.053e-02 Ha
+11/09 06:14:28 PM   n_gates = 31, n_cx = 12, depth = 15, n_params = 15
+11/09 06:14:28 PM generation = 6
+11/09 06:14:28 PM population error: best = 1.294e-07, mean = 1.228e-02, median = 2.052e-02, worst = 2.052e-02
+11/09 06:14:28 PM population cost : best = 2.0, mean = 22.40, median = 26.50, worst = 39.0
+11/09 06:14:28 PM Architecture id = 121
+11/09 06:14:28 PM L5|2,4,1,4,0;3,2,3,4,0;4,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:14:35 PM   energy = -1.1167592754 Ha, error = 2.052e-02 Ha
+11/09 06:14:35 PM   n_gates = 9, n_cx = 0, depth = 3, n_params = 5
+11/09 06:14:35 PM Architecture id = 122
+11/09 06:14:35 PM L6|2,3,1,4,0;0,2,3,4,2;0,1,2,0,0;0,0,0,2,3;2,1,4,4,3;0,4,0,4,1
+11/09 06:14:45 PM   energy = -0.6624722160 Ha, error = 4.748e-01 Ha
+11/09 06:14:45 PM   n_gates = 29, n_cx = 13, depth = 17, n_params = 10
+11/09 06:14:45 PM Architecture id = 123
+11/09 06:14:45 PM L6|0,2,1,4,0;3,2,3,4,2;2,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,3,2,4
+11/09 06:14:51 PM   energy = -1.1167592436 Ha, error = 2.052e-02 Ha
+11/09 06:14:51 PM   n_gates = 20, n_cx = 10, depth = 9, n_params = 8
+11/09 06:14:51 PM Architecture id = 124
+11/09 06:14:51 PM L6|0,1,1,4,0;0,2,3,4,3;0,1,4,2,3;1,4,0,2,3;1,3,2,3,2;2,4,3,2,4
+11/09 06:15:06 PM   energy = -0.8421300527 Ha, error = 2.952e-01 Ha
+11/09 06:15:06 PM   n_gates = 39, n_cx = 19, depth = 20, n_params = 15
+11/09 06:15:06 PM Architecture id = 125
+11/09 06:15:06 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;2,3,2,0,0;0,0,0,4,3;0,4,0,4,1
+11/09 06:15:16 PM   energy = -0.5344893822 Ha, error = 6.028e-01 Ha
+11/09 06:15:16 PM   n_gates = 25, n_cx = 9, depth = 15, n_params = 10
+11/09 06:15:16 PM Architecture id = 126
+11/09 06:15:16 PM L5|2,3,1,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:15:24 PM   energy = -1.1372838352 Ha, error = -8.496e-10 Ha
+11/09 06:15:24 PM   n_gates = 17, n_cx = 6, depth = 10, n_params = 7
+11/09 06:15:24 PM Architecture id = 127
+11/09 06:15:24 PM L5|2,3,1,4,0;3,2,3,4,0;4,0,4,4,3;1,4,0,2,3;3,1,4,4,3
+11/09 06:15:35 PM   energy = -1.1372791684 Ha, error = 4.666e-06 Ha
+11/09 06:15:35 PM   n_gates = 27, n_cx = 9, depth = 14, n_params = 10
+11/09 06:15:35 PM Architecture id = 128
+11/09 06:15:35 PM L6|2,3,1,4,0;3,2,3,4,0;4,0,2,0,0;0,0,0,2,3;2,1,4,4,3;0,4,0,4,1
+11/09 06:15:47 PM   energy = -0.5307732807 Ha, error = 6.065e-01 Ha
+11/09 06:15:47 PM   n_gates = 26, n_cx = 9, depth = 15, n_params = 10
+11/09 06:15:47 PM Architecture id = 129
+11/09 06:15:47 PM L5|2,3,1,4,0;0,2,3,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:15:50 PM   energy = -1.1167591709 Ha, error = 2.052e-02 Ha
+11/09 06:15:50 PM   n_gates = 7, n_cx = 0, depth = 2, n_params = 5
+11/09 06:15:50 PM Architecture id = 130
+11/09 06:15:50 PM L6|0,2,1,4,0;3,2,3,4,2;2,1,3,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,2,4
+11/09 06:15:59 PM   energy = -1.1167593083 Ha, error = 2.052e-02 Ha
+11/09 06:15:59 PM   n_gates = 22, n_cx = 10, depth = 9, n_params = 9
+11/09 06:15:59 PM Architecture id = 131
+11/09 06:15:59 PM L6|2,3,1,4,0;3,2,3,4,0;4,0,4,4,3;2,3,0,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:16:09 PM   energy = -1.1167591589 Ha, error = 2.052e-02 Ha
+11/09 06:16:09 PM   n_gates = 32, n_cx = 12, depth = 18, n_params = 11
+11/09 06:16:09 PM Architecture id = 132
+11/09 06:16:09 PM L6|2,3,1,4,0;0,2,3,4,0;0,0,0,0,0;0,0,0,0,0;0,0,4,4,3;0,4,0,4,1
+11/09 06:16:19 PM   energy = -1.1167591175 Ha, error = 2.052e-02 Ha
+11/09 06:16:19 PM   n_gates = 17, n_cx = 6, depth = 10, n_params = 5
+11/09 06:16:19 PM Architecture id = 133
+11/09 06:16:19 PM L6|2,3,1,3,0;0,2,3,4,3;0,1,2,4,0;1,4,2,2,2;3,1,4,4,3;0,4,0,4,1
+11/09 06:16:31 PM   energy = -0.5344891673 Ha, error = 6.028e-01 Ha
+11/09 06:16:31 PM   n_gates = 33, n_cx = 13, depth = 17, n_params = 13
+11/09 06:16:31 PM Architecture id = 134
+11/09 06:16:31 PM L5|0,1,1,4,0;0,0,0,0,0;4,0,4,4,3;1,4,0,2,3;1,3,2,3,2
+11/09 06:16:42 PM   energy = -0.6228003660 Ha, error = 5.145e-01 Ha
+11/09 06:16:42 PM   n_gates = 23, n_cx = 10, depth = 12, n_params = 8
+11/09 06:16:42 PM Architecture id = 135
+11/09 06:16:42 PM L5|0,2,1,4,0;3,2,3,4,2;2,1,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:16:50 PM   energy = -1.1372826691 Ha, error = 1.165e-06 Ha
+11/09 06:16:50 PM   n_gates = 13, n_cx = 4, depth = 5, n_params = 7
+11/09 06:16:50 PM Architecture id = 136
+11/09 06:16:50 PM L1|0,3,1,4,0
+11/09 06:16:54 PM   energy = -0.7811875692 Ha, error = 3.561e-01 Ha
+11/09 06:16:54 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:16:54 PM Architecture id = 137
+11/09 06:16:54 PM L5|2,3,1,4,0;0,2,2,4,3;0,1,2,4,0;2,3,2,2,3;3,1,4,4,3
+11/09 06:17:04 PM   energy = -1.1167585538 Ha, error = 2.053e-02 Ha
+11/09 06:17:04 PM   n_gates = 27, n_cx = 9, depth = 14, n_params = 13
+11/09 06:17:04 PM Architecture id = 138
+11/09 06:17:04 PM L6|2,3,2,2,0;0,0,0,0,0;0,0,0,0,0;1,4,0,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:17:11 PM   energy = -0.5307733591 Ha, error = 6.065e-01 Ha
+11/09 06:17:11 PM   n_gates = 22, n_cx = 9, depth = 13, n_params = 8
+11/09 06:17:11 PM Architecture id = 139
+11/09 06:17:11 PM L6|0,2,1,4,0;3,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,3,2,3,2;2,3,3,2,4
+11/09 06:17:21 PM   energy = -0.5344831310 Ha, error = 6.028e-01 Ha
+11/09 06:17:21 PM   n_gates = 21, n_cx = 10, depth = 9, n_params = 10
+11/09 06:17:21 PM Architecture id = 140
+11/09 06:17:21 PM L6|0,3,3,1,1;0,0,0,0,0;0,0,0,0,0;0,0,0,2,3;2,1,4,4,3;0,4,0,4,1
+11/09 06:17:26 PM   energy = -0.4487773658 Ha, error = 6.885e-01 Ha
+11/09 06:17:26 PM   n_gates = 22, n_cx = 12, depth = 16, n_params = 6
+11/09 06:17:26 PM generation = 7
+11/09 06:17:26 PM population error: best = -8.496e-10, mean = 1.027e-02, median = 1.031e-02, worst = 2.052e-02
+11/09 06:17:26 PM population cost : best = 2.0, mean = 18.05, median = 19.00, worst = 37.0
+11/09 06:17:26 PM Architecture id = 141
+11/09 06:17:26 PM L5|2,2,2,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:17:30 PM   energy = -1.1167589558 Ha, error = 2.052e-02 Ha
+11/09 06:17:30 PM   n_gates = 4, n_cx = 0, depth = 1, n_params = 4
+11/09 06:17:30 PM Architecture id = 142
+11/09 06:17:30 PM L5|2,3,0,2,0;0,0,0,0,0;0,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:17:39 PM   energy = -0.5306399454 Ha, error = 6.066e-01 Ha
+11/09 06:17:39 PM   n_gates = 9, n_cx = 3, depth = 6, n_params = 4
+11/09 06:17:39 PM Architecture id = 143
+11/09 06:17:39 PM L5|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;2,1,4,4,3
+11/09 06:17:50 PM   energy = -1.1372835981 Ha, error = 2.363e-07 Ha
+11/09 06:17:50 PM   n_gates = 23, n_cx = 9, depth = 14, n_params = 10
+11/09 06:17:50 PM Architecture id = 144
+11/09 06:17:50 PM L2|2,3,1,4,0;0,2,3,4,3
+11/09 06:17:50 PM   energy = -0.5307725650 Ha, error = 6.065e-01 Ha
+11/09 06:17:50 PM   n_gates = 10, n_cx = 3, depth = 5, n_params = 5
+11/09 06:17:50 PM Architecture id = 145
+11/09 06:17:50 PM L6|2,3,1,4,0;0,3,3,4,3;0,1,2,4,0;0,0,0,2,3;2,1,4,4,3;0,4,0,4,1
+11/09 06:18:00 PM   energy = -0.4881945863 Ha, error = 6.491e-01 Ha
+11/09 06:18:00 PM   n_gates = 29, n_cx = 12, depth = 18, n_params = 10
+11/09 06:18:00 PM Architecture id = 146
+11/09 06:18:00 PM L6|0,2,1,4,0;3,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,0,0;0,0,3,2,4
+11/09 06:18:11 PM   energy = -0.5382036388 Ha, error = 5.991e-01 Ha
+11/09 06:18:11 PM   n_gates = 21, n_cx = 9, depth = 10, n_params = 9
+11/09 06:18:11 PM Architecture id = 147
+11/09 06:18:11 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;3,1,4,4,3;0,3,0,4,1
+11/09 06:18:23 PM   energy = -1.1167589578 Ha, error = 2.052e-02 Ha
+11/09 06:18:23 PM   n_gates = 28, n_cx = 12, depth = 18, n_params = 11
+11/09 06:18:23 PM Architecture id = 148
+11/09 06:18:23 PM L1|0,3,1,4,0
+11/09 06:18:23 PM   energy = -0.7811875692 Ha, error = 3.561e-01 Ha
+11/09 06:18:23 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:18:23 PM Architecture id = 149
+11/09 06:18:23 PM L1|0,2,1,4,0
+11/09 06:18:28 PM   energy = -0.7811875528 Ha, error = 3.561e-01 Ha
+11/09 06:18:28 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:18:28 PM Architecture id = 150
+11/09 06:18:28 PM L6|2,3,1,4,0;0,2,3,4,2;2,0,3,4,0;0,0,0,0,0;0,0,0,4,3;0,4,0,4,1
+11/09 06:18:33 PM   energy = -0.4437577428 Ha, error = 6.935e-01 Ha
+11/09 06:18:33 PM   n_gates = 23, n_cx = 10, depth = 13, n_params = 7
+11/09 06:18:33 PM Architecture id = 151
+11/09 06:18:33 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;2,3,2,2,3;2,0,0,0,0;0,4,0,4,1
+11/09 06:18:42 PM   energy = -0.5307708505 Ha, error = 6.065e-01 Ha
+11/09 06:18:42 PM   n_gates = 26, n_cx = 9, depth = 15, n_params = 12
+11/09 06:18:42 PM Architecture id = 152
+11/09 06:18:42 PM L6|3,1,0,2,4;0,0,0,0,0;0,0,0,4,0;2,3,2,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:18:51 PM   energy = -0.4881930372 Ha, error = 6.491e-01 Ha
+11/09 06:18:51 PM   n_gates = 29, n_cx = 15, depth = 17, n_params = 9
+11/09 06:18:51 PM Architecture id = 153
+11/09 06:18:51 PM L6|2,3,1,4,0;0,0,0,0,0;0,0,2,0,0;0,0,0,2,3;2,1,4,4,3;0,4,0,4,1
+11/09 06:19:00 PM   energy = -0.4881945100 Ha, error = 6.491e-01 Ha
+11/09 06:19:00 PM   n_gates = 21, n_cx = 9, depth = 14, n_params = 7
+11/09 06:19:00 PM Architecture id = 154
+11/09 06:19:00 PM L5|2,3,1,4,0;0,2,3,4,2;2,0,3,4,0;0,0,0,0,0;0,0,0,4,1
+11/09 06:19:09 PM   energy = -0.5313739767 Ha, error = 6.059e-01 Ha
+11/09 06:19:09 PM   n_gates = 18, n_cx = 7, depth = 9, n_params = 7
+11/09 06:19:09 PM Architecture id = 155
+11/09 06:19:09 PM L6|0,1,1,4,0;3,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,3,2;2,4,3,2,4
+11/09 06:19:18 PM   energy = -0.4587950360 Ha, error = 6.785e-01 Ha
+11/09 06:19:18 PM   n_gates = 28, n_cx = 13, depth = 13, n_params = 11
+11/09 06:19:18 PM Architecture id = 156
+11/09 06:19:18 PM L5|2,3,1,4,0;0,2,3,4,0;4,0,4,4,3;1,4,0,2,3;1,3,2,4,3
+11/09 06:19:28 PM   energy = -1.1167570813 Ha, error = 2.053e-02 Ha
+11/09 06:19:28 PM   n_gates = 26, n_cx = 9, depth = 14, n_params = 10
+11/09 06:19:28 PM Architecture id = 157
+11/09 06:19:28 PM L6|2,3,1,4,0;0,1,3,4,3;0,1,2,0,0;0,0,0,2,3;2,1,4,4,3;0,0,0,0,1
+11/09 06:19:37 PM   energy = -1.1167552543 Ha, error = 2.053e-02 Ha
+11/09 06:19:37 PM   n_gates = 26, n_cx = 12, depth = 17, n_params = 10
+11/09 06:19:37 PM Architecture id = 158
+11/09 06:19:37 PM L1|0,3,0,2,0
+11/09 06:19:41 PM   energy = -1.1167592994 Ha, error = 2.052e-02 Ha
+11/09 06:19:41 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:19:41 PM Architecture id = 159
+11/09 06:19:41 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;2,0,0,2,3;2,1,4,4,3;0,4,0,4,1
+11/09 06:19:51 PM   energy = -1.1372811688 Ha, error = 2.666e-06 Ha
+11/09 06:19:51 PM   n_gates = 30, n_cx = 12, depth = 18, n_params = 11
+11/09 06:19:51 PM Architecture id = 160
+11/09 06:19:51 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,3,2,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:19:59 PM   energy = -1.1364812867 Ha, error = 8.025e-04 Ha
+11/09 06:19:59 PM   n_gates = 30, n_cx = 12, depth = 18, n_params = 12
+11/09 06:19:59 PM generation = 8
+11/09 06:19:59 PM population error: best = -8.496e-10, mean = 9.237e-03, median = 5.768e-06, worst = 2.052e-02
+11/09 06:19:59 PM population cost : best = 2.0, mean = 18.05, median = 20.00, worst = 37.0
+11/09 06:19:59 PM Architecture id = 161
+11/09 06:19:59 PM L5|2,3,2,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;2,1,4,4,2
+11/09 06:20:10 PM   energy = -1.1372837530 Ha, error = 8.136e-08 Ha
+11/09 06:20:10 PM   n_gates = 24, n_cx = 10, depth = 13, n_params = 10
+11/09 06:20:10 PM Architecture id = 162
+11/09 06:20:10 PM L5|0,2,1,4,0;3,2,3,4,2;2,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:20:16 PM   energy = -0.4615562437 Ha, error = 6.757e-01 Ha
+11/09 06:20:16 PM   n_gates = 14, n_cx = 4, depth = 5, n_params = 7
+11/09 06:20:16 PM Architecture id = 163
+11/09 06:20:16 PM L6|2,3,1,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,1,4,4,3;0,4,0,4,1
+11/09 06:20:25 PM   energy = -0.4487769293 Ha, error = 6.885e-01 Ha
+11/09 06:20:25 PM   n_gates = 15, n_cx = 6, depth = 9, n_params = 5
+11/09 06:20:25 PM Architecture id = 164
+11/09 06:20:25 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;3,3,2,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:20:36 PM   energy = -1.1372833952 Ha, error = 4.392e-07 Ha
+11/09 06:20:36 PM   n_gates = 32, n_cx = 12, depth = 18, n_params = 13
+11/09 06:20:36 PM Architecture id = 165
+11/09 06:20:36 PM L6|2,3,1,4,0;0,2,3,0,0;0,0,0,0,0;0,0,0,0,0;0,1,4,4,3;0,4,0,4,1
+11/09 06:20:45 PM   energy = -0.7811873700 Ha, error = 3.561e-01 Ha
+11/09 06:20:45 PM   n_gates = 17, n_cx = 6, depth = 10, n_params = 6
+11/09 06:20:45 PM Architecture id = 166
+11/09 06:20:45 PM L6|0,1,1,4,0;3,2,3,4,0;4,0,4,4,3;1,4,0,1,3;1,3,2,3,3;0,0,0,0,4
+11/09 06:20:56 PM   energy = -0.4437451265 Ha, error = 6.935e-01 Ha
+11/09 06:20:56 PM   n_gates = 32, n_cx = 15, depth = 17, n_params = 11
+11/09 06:20:56 PM Architecture id = 167
+11/09 06:20:56 PM L6|0,2,1,4,0;3,2,3,4,2;2,1,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,3,2,4
+11/09 06:21:02 PM   energy = -1.1167591057 Ha, error = 2.052e-02 Ha
+11/09 06:21:02 PM   n_gates = 21, n_cx = 10, depth = 9, n_params = 9
+11/09 06:21:02 PM Architecture id = 168
+11/09 06:21:02 PM L1|0,2,2,4,0
+11/09 06:21:06 PM   energy = -0.7811875528 Ha, error = 3.561e-01 Ha
+11/09 06:21:06 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:21:06 PM Architecture id = 169
+11/09 06:21:06 PM L6|0,2,1,4,0;3,2,3,4,2;2,1,3,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,2,4
+11/09 06:21:12 PM   energy = -1.1167591057 Ha, error = 2.052e-02 Ha
+11/09 06:21:12 PM   n_gates = 21, n_cx = 10, depth = 9, n_params = 9
+11/09 06:21:12 PM Architecture id = 170
+11/09 06:21:12 PM L4|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3
+11/09 06:21:17 PM   energy = -1.1167591851 Ha, error = 2.052e-02 Ha
+11/09 06:21:17 PM   n_gates = 16, n_cx = 6, depth = 10, n_params = 8
+11/09 06:21:17 PM Architecture id = 171
+11/09 06:21:17 PM L6|0,1,1,4,0;2,2,3,4,0;4,0,4,4,3;1,4,0,2,3;1,3,2,3,2;2,4,3,2,4
+11/09 06:21:27 PM   energy = -0.8325235771 Ha, error = 3.048e-01 Ha
+11/09 06:21:27 PM   n_gates = 37, n_cx = 16, depth = 17, n_params = 14
+11/09 06:21:27 PM Architecture id = 172
+11/09 06:21:27 PM L5|0,2,1,4,0;3,2,2,4,2;2,1,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:21:36 PM   energy = -1.1372826693 Ha, error = 1.165e-06 Ha
+11/09 06:21:36 PM   n_gates = 13, n_cx = 4, depth = 5, n_params = 7
+11/09 06:21:36 PM Architecture id = 173
+11/09 06:21:36 PM L5|0,2,1,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:21:40 PM   energy = -1.1167592305 Ha, error = 2.052e-02 Ha
+11/09 06:21:40 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 06:21:40 PM Architecture id = 174
+11/09 06:21:40 PM L6|0,1,1,4,0;3,2,3,4,2;2,1,3,4,0;0,0,0,0,0;0,0,2,3,2;2,4,3,2,4
+11/09 06:21:53 PM   energy = -0.7811866630 Ha, error = 3.561e-01 Ha
+11/09 06:21:53 PM   n_gates = 31, n_cx = 14, depth = 12, n_params = 13
+11/09 06:21:53 PM Architecture id = 175
+11/09 06:21:53 PM L1|0,3,2,4,0
+11/09 06:21:58 PM   energy = -0.7811875692 Ha, error = 3.561e-01 Ha
+11/09 06:21:58 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:21:58 PM Architecture id = 176
+11/09 06:21:58 PM L6|2,3,1,4,0;0,2,0,0,0;0,0,0,0,0;0,0,0,2,3;2,1,4,4,3;0,4,0,4,1
+11/09 06:22:07 PM   energy = -0.5307732082 Ha, error = 6.065e-01 Ha
+11/09 06:22:07 PM   n_gates = 21, n_cx = 9, depth = 14, n_params = 7
+11/09 06:22:07 PM Architecture id = 177
+11/09 06:22:07 PM L6|0,2,1,4,0;3,2,3,4,0;4,0,4,4,3;1,4,0,2,3;1,3,0,0,0;0,0,0,2,4
+11/09 06:22:19 PM   energy = -0.7331606934 Ha, error = 4.041e-01 Ha
+11/09 06:22:19 PM   n_gates = 28, n_cx = 12, depth = 15, n_params = 10
+11/09 06:22:19 PM Architecture id = 178
+11/09 06:22:19 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;2,3,2,2,3;3,1,4,4,3;0,0,0,4,1
+11/09 06:22:33 PM   energy = -1.1372824830 Ha, error = 1.351e-06 Ha
+11/09 06:22:33 PM   n_gates = 31, n_cx = 12, depth = 18, n_params = 13
+11/09 06:22:33 PM Architecture id = 179
+11/09 06:22:33 PM L5|2,3,1,4,0;0,2,3,4,2;2,0,0,0,0;0,0,0,0,0;1,0,0,4,3
+11/09 06:22:43 PM   energy = -0.7883426071 Ha, error = 3.489e-01 Ha
+11/09 06:22:43 PM   n_gates = 17, n_cx = 7, depth = 9, n_params = 7
+11/09 06:22:43 PM Architecture id = 180
+11/09 06:22:43 PM L6|2,3,1,2,0;0,0,0,0,3;0,1,2,4,0;2,3,2,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:22:55 PM   energy = -1.1167513068 Ha, error = 2.053e-02 Ha
+11/09 06:22:55 PM   n_gates = 29, n_cx = 12, depth = 17, n_params = 12
+11/09 06:22:55 PM generation = 9
+11/09 06:22:55 PM population error: best = -8.496e-10, mean = 1.026e-02, median = 1.027e-02, worst = 2.052e-02
+11/09 06:22:55 PM population cost : best = 2.0, mean = 14.95, median = 14.50, worst = 32.0
+11/09 06:22:55 PM Architecture id = 181
+11/09 06:22:55 PM L5|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;2,3,2,2,3;3,0,0,4,3
+11/09 06:23:07 PM   energy = -1.1167390682 Ha, error = 2.054e-02 Ha
+11/09 06:23:07 PM   n_gates = 25, n_cx = 9, depth = 14, n_params = 12
+11/09 06:23:07 PM Architecture id = 182
+11/09 06:23:07 PM L1|0,3,1,4,0
+11/09 06:23:07 PM   energy = -0.7811875692 Ha, error = 3.561e-01 Ha
+11/09 06:23:07 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:23:07 PM Architecture id = 183
+11/09 06:23:07 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,0,0;0,0,0,0,3;0,4,0,4,1
+11/09 06:23:17 PM   energy = -0.4615557382 Ha, error = 6.757e-01 Ha
+11/09 06:23:17 PM   n_gates = 20, n_cx = 9, depth = 13, n_params = 7
+11/09 06:23:17 PM Architecture id = 184
+11/09 06:23:17 PM L5|2,3,1,4,0;0,2,3,4,2;2,1,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:23:27 PM   energy = -1.1372778175 Ha, error = 6.017e-06 Ha
+11/09 06:23:27 PM   n_gates = 19, n_cx = 7, depth = 9, n_params = 8
+11/09 06:23:27 PM Architecture id = 185
+11/09 06:23:27 PM L5|2,3,2,4,0;0,2,3,4,3;0,1,2,4,0;2,3,2,2,3;3,1,3,4,3
+11/09 06:23:40 PM   energy = -1.1167591656 Ha, error = 2.052e-02 Ha
+11/09 06:23:40 PM   n_gates = 27, n_cx = 9, depth = 14, n_params = 14
+11/09 06:23:40 PM Architecture id = 186
+11/09 06:23:40 PM L5|2,3,1,4,0;0,2,3,4,2;2,0,3,4,1;0,0,0,0,0;0,0,0,4,3
+11/09 06:23:51 PM   energy = -1.1167560962 Ha, error = 2.053e-02 Ha
+11/09 06:23:51 PM   n_gates = 21, n_cx = 10, depth = 12, n_params = 7
+11/09 06:23:51 PM Architecture id = 187
+11/09 06:23:51 PM L5|2,3,2,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3;2,1,4,4,2
+11/09 06:24:01 PM   energy = -1.1372834160 Ha, error = 4.184e-07 Ha
+11/09 06:24:01 PM   n_gates = 21, n_cx = 7, depth = 10, n_params = 10
+11/09 06:24:01 PM Architecture id = 188
+11/09 06:24:01 PM L6|0,1,1,4,0;3,2,3,4,2;2,0,3,4,0;0,0,0,0,0;0,0,0,0,0;0,0,3,2,4
+11/09 06:24:11 PM   energy = -1.1167593086 Ha, error = 2.052e-02 Ha
+11/09 06:24:11 PM   n_gates = 22, n_cx = 10, depth = 9, n_params = 9
+11/09 06:24:11 PM Architecture id = 189
+11/09 06:24:11 PM L6|2,3,1,4,0;0,2,3,4,3;1,0,3,4,0;0,0,0,0,0;0,1,4,4,3;0,4,0,4,1
+11/09 06:24:21 PM   energy = -0.7811870589 Ha, error = 3.561e-01 Ha
+11/09 06:24:21 PM   n_gates = 24, n_cx = 9, depth = 14, n_params = 8
+11/09 06:24:21 PM Architecture id = 190
+11/09 06:24:21 PM L5|0,2,1,1,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:24:26 PM   energy = -1.1167592305 Ha, error = 2.052e-02 Ha
+11/09 06:24:26 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 06:24:26 PM Architecture id = 191
+11/09 06:24:26 PM L6|1,3,0,2,0;0,0,0,0,1;0,0,0,0,0;0,0,0,2,3;2,0,4,4,3;0,4,0,4,1
+11/09 06:24:32 PM   energy = -0.4487773803 Ha, error = 6.885e-01 Ha
+11/09 06:24:32 PM   n_gates = 21, n_cx = 12, depth = 16, n_params = 5
+11/09 06:24:32 PM Architecture id = 192
+11/09 06:24:32 PM L5|0,0,1,4,0;3,2,2,4,2;2,1,0,0,0;0,0,0,2,3;2,1,4,4,0
+11/09 06:24:43 PM   energy = -0.7883905012 Ha, error = 3.489e-01 Ha
+11/09 06:24:43 PM   n_gates = 20, n_cx = 7, depth = 10, n_params = 9
+11/09 06:24:43 PM Architecture id = 193
+11/09 06:24:43 PM L5|0,2,1,4,0;3,2,3,4,3;2,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:24:53 PM   energy = -0.5307693776 Ha, error = 6.065e-01 Ha
+11/09 06:24:53 PM   n_gates = 11, n_cx = 3, depth = 6, n_params = 6
+11/09 06:24:53 PM Architecture id = 194
+11/09 06:24:53 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;2,1,2,4,2;0,0,0,4,1
+11/09 06:25:07 PM   energy = -0.5344857318 Ha, error = 6.028e-01 Ha
+11/09 06:25:07 PM   n_gates = 28, n_cx = 13, depth = 17, n_params = 11
+11/09 06:25:07 PM Architecture id = 195
+11/09 06:25:07 PM L5|0,2,1,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,1,0,0
+11/09 06:25:11 PM   energy = -1.1167579319 Ha, error = 2.053e-02 Ha
+11/09 06:25:11 PM   n_gates = 4, n_cx = 0, depth = 2, n_params = 4
+11/09 06:25:11 PM Architecture id = 196
+11/09 06:25:11 PM L5|2,3,2,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:25:21 PM   energy = -0.5369599055 Ha, error = 6.003e-01 Ha
+11/09 06:25:21 PM   n_gates = 12, n_cx = 3, depth = 6, n_params = 7
+11/09 06:25:21 PM Architecture id = 197
+11/09 06:25:21 PM L5|0,2,1,4,0;3,2,3,4,3;0,1,2,0,0;0,0,0,2,3;0,0,0,0,0
+11/09 06:25:28 PM   energy = -1.1167591617 Ha, error = 2.052e-02 Ha
+11/09 06:25:28 PM   n_gates = 16, n_cx = 6, depth = 10, n_params = 8
+11/09 06:25:28 PM Architecture id = 198
+11/09 06:25:28 PM L2|2,3,1,4,0;0,2,3,4,2
+11/09 06:25:33 PM   energy = -0.5382053439 Ha, error = 5.991e-01 Ha
+11/09 06:25:33 PM   n_gates = 11, n_cx = 4, depth = 4, n_params = 5
+11/09 06:25:33 PM Architecture id = 199
+11/09 06:25:33 PM L5|2,3,2,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;2,0,0,0,0
+11/09 06:25:39 PM   energy = -1.1167591852 Ha, error = 2.052e-02 Ha
+11/09 06:25:39 PM   n_gates = 17, n_cx = 6, depth = 11, n_params = 9
+11/09 06:25:39 PM Architecture id = 200
+11/09 06:25:39 PM L1|0,3,2,4,0
+11/09 06:25:39 PM   energy = -0.7811875692 Ha, error = 3.561e-01 Ha
+11/09 06:25:39 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:25:39 PM generation = 10
+11/09 06:25:39 PM population error: best = -8.496e-10, mean = 9.237e-03, median = 6.444e-06, worst = 2.052e-02
+11/09 06:25:39 PM population cost : best = 2.0, mean = 14.55, median = 15.00, worst = 32.0
+11/09 06:25:39 PM Architecture id = 201
+11/09 06:25:39 PM L5|2,3,2,4,0;0,2,3,4,3;0,1,2,4,0;2,3,2,2,3;3,1,4,4,3
+11/09 06:25:48 PM   energy = -1.1167586218 Ha, error = 2.053e-02 Ha
+11/09 06:25:48 PM   n_gates = 27, n_cx = 9, depth = 14, n_params = 13
+11/09 06:25:48 PM Architecture id = 202
+11/09 06:25:48 PM L5|2,2,2,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,0,0;0,0,0,4,2
+11/09 06:25:53 PM   energy = -0.1490848038 Ha, error = 9.882e-01 Ha
+11/09 06:25:53 PM   n_gates = 14, n_cx = 4, depth = 6, n_params = 7
+11/09 06:25:53 PM Architecture id = 203
+11/09 06:25:53 PM L5|2,3,1,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:25:57 PM   energy = -1.1167591786 Ha, error = 2.052e-02 Ha
+11/09 06:25:57 PM   n_gates = 4, n_cx = 0, depth = 1, n_params = 4
+11/09 06:25:57 PM Architecture id = 204
+11/09 06:25:57 PM L5|2,3,2,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;0,0,0,0,2
+11/09 06:26:04 PM   energy = -0.5382053668 Ha, error = 5.991e-01 Ha
+11/09 06:26:04 PM   n_gates = 20, n_cx = 10, depth = 12, n_params = 8
+11/09 06:26:04 PM Architecture id = 205
+11/09 06:26:04 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;2,3,2,2,3;2,1,4,4,3;0,4,0,4,1
+11/09 06:26:17 PM   energy = -1.1372836667 Ha, error = 1.677e-07 Ha
+11/09 06:26:17 PM   n_gates = 32, n_cx = 12, depth = 18, n_params = 13
+11/09 06:26:17 PM Architecture id = 206
+11/09 06:26:17 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;2,1,4,4,2;0,0,0,0,1
+11/09 06:26:28 PM   energy = -1.1167573585 Ha, error = 2.053e-02 Ha
+11/09 06:26:28 PM   n_gates = 27, n_cx = 13, depth = 16, n_params = 10
+11/09 06:26:28 PM Architecture id = 207
+11/09 06:26:28 PM L6|2,3,1,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,2,3;2,1,4,4,3;0,4,0,4,1
+11/09 06:26:37 PM   energy = -0.4487774442 Ha, error = 6.885e-01 Ha
+11/09 06:26:37 PM   n_gates = 20, n_cx = 9, depth = 13, n_params = 6
+11/09 06:26:37 PM Architecture id = 208
+11/09 06:26:37 PM L5|0,2,1,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:26:43 PM   energy = -1.1372833005 Ha, error = 5.339e-07 Ha
+11/09 06:26:43 PM   n_gates = 16, n_cx = 6, depth = 10, n_params = 6
+11/09 06:26:43 PM Architecture id = 209
+11/09 06:26:43 PM L5|0,2,1,1,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;2,1,4,4,0
+11/09 06:26:49 PM   energy = -0.2796750112 Ha, error = 8.576e-01 Ha
+11/09 06:26:49 PM   n_gates = 7, n_cx = 0, depth = 2, n_params = 5
+11/09 06:26:49 PM Architecture id = 210
+11/09 06:26:49 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;3,1,4,4,3;0,4,0,4,1
+11/09 06:26:49 PM   energy = -1.1372823953 Ha, error = 1.439e-06 Ha
+11/09 06:26:49 PM   n_gates = 28, n_cx = 12, depth = 18, n_params = 10
+11/09 06:26:49 PM Architecture id = 211
+11/09 06:26:49 PM L1|0,2,0,1,0
+11/09 06:26:53 PM   energy = -1.1167592881 Ha, error = 2.052e-02 Ha
+11/09 06:26:53 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:26:53 PM Architecture id = 212
+11/09 06:26:53 PM L5|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:27:00 PM   energy = -1.1167592035 Ha, error = 2.052e-02 Ha
+11/09 06:27:00 PM   n_gates = 17, n_cx = 6, depth = 10, n_params = 7
+11/09 06:27:00 PM Architecture id = 213
+11/09 06:27:00 PM L5|2,3,1,4,0;0,2,3,4,3;0,1,2,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:27:10 PM   energy = -0.5344893480 Ha, error = 6.028e-01 Ha
+11/09 06:27:10 PM   n_gates = 13, n_cx = 3, depth = 6, n_params = 7
+11/09 06:27:10 PM Architecture id = 214
+11/09 06:27:10 PM L5|2,3,1,4,0;0,2,3,4,2;2,0,0,0,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:27:21 PM   energy = -0.7883426918 Ha, error = 3.489e-01 Ha
+11/09 06:27:21 PM   n_gates = 16, n_cx = 7, depth = 9, n_params = 6
+11/09 06:27:21 PM Architecture id = 215
+11/09 06:27:21 PM L6|2,3,1,4,0;0,2,3,4,3;2,0,3,0,0;0,0,0,2,3;2,1,4,4,3;0,4,0,4,1
+11/09 06:27:34 PM   energy = -1.1167589728 Ha, error = 2.052e-02 Ha
+11/09 06:27:34 PM   n_gates = 28, n_cx = 12, depth = 18, n_params = 10
+11/09 06:27:34 PM Architecture id = 216
+11/09 06:27:34 PM L1|0,1,0,2,0
+11/09 06:27:39 PM   energy = -1.1167592881 Ha, error = 2.052e-02 Ha
+11/09 06:27:39 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:27:39 PM Architecture id = 217
+11/09 06:27:39 PM L5|0,2,1,4,0;3,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:27:43 PM   energy = -0.7811875528 Ha, error = 3.561e-01 Ha
+11/09 06:27:43 PM   n_gates = 4, n_cx = 0, depth = 2, n_params = 3
+11/09 06:27:43 PM Architecture id = 218
+11/09 06:27:43 PM L6|0,3,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,1
+11/09 06:27:49 PM   energy = -0.5382047933 Ha, error = 5.991e-01 Ha
+11/09 06:27:49 PM   n_gates = 6, n_cx = 3, depth = 5, n_params = 2
+11/09 06:27:49 PM Architecture id = 219
+11/09 06:27:49 PM L5|2,3,2,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:27:49 PM   energy = -0.5369599055 Ha, error = 6.003e-01 Ha
+11/09 06:27:49 PM   n_gates = 12, n_cx = 3, depth = 6, n_params = 7
+11/09 06:27:49 PM Architecture id = 220
+11/09 06:27:49 PM L1|2,3,1,4,0
+11/09 06:27:52 PM   energy = -0.7811873924 Ha, error = 3.561e-01 Ha
+11/09 06:27:52 PM   n_gates = 4, n_cx = 0, depth = 1, n_params = 3
+11/09 06:27:52 PM generation = 11
+11/09 06:27:52 PM population error: best = -8.496e-10, mean = 9.237e-03, median = 6.444e-06, worst = 2.052e-02
+11/09 06:27:52 PM population cost : best = 2.0, mean = 12.70, median = 13.00, worst = 28.0
+11/09 06:27:52 PM Architecture id = 221
+11/09 06:27:53 PM L5|0,2,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:28:02 PM   energy = -0.4456148561 Ha, error = 6.917e-01 Ha
+11/09 06:28:02 PM   n_gates = 11, n_cx = 3, depth = 6, n_params = 6
+11/09 06:28:02 PM Architecture id = 222
+11/09 06:28:02 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;0,0,0,0,0;0,0,0,4,1
+11/09 06:28:10 PM   energy = -0.5382003376 Ha, error = 5.991e-01 Ha
+11/09 06:28:10 PM   n_gates = 20, n_cx = 9, depth = 14, n_params = 8
+11/09 06:28:10 PM Architecture id = 223
+11/09 06:28:10 PM L4|2,3,1,4,0;0,2,3,4,2;2,0,3,4,0;0,0,0,0,0
+11/09 06:28:16 PM   energy = -0.4615562522 Ha, error = 6.757e-01 Ha
+11/09 06:28:16 PM   n_gates = 14, n_cx = 4, depth = 5, n_params = 7
+11/09 06:28:16 PM Architecture id = 224
+11/09 06:28:16 PM L6|2,3,1,4,0;0,2,3,4,0;4,0,0,0,0;0,0,0,1,0;2,1,4,4,3;0,4,0,4,1
+11/09 06:28:26 PM   energy = -1.1167585007 Ha, error = 2.053e-02 Ha
+11/09 06:28:26 PM   n_gates = 21, n_cx = 6, depth = 12, n_params = 8
+11/09 06:28:26 PM Architecture id = 225
+11/09 06:28:26 PM L5|0,2,1,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:28:30 PM   energy = -0.7811875528 Ha, error = 3.561e-01 Ha
+11/09 06:28:30 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:28:30 PM Architecture id = 226
+11/09 06:28:30 PM L1|0,2,1,4,0
+11/09 06:28:30 PM   energy = -0.7811875528 Ha, error = 3.561e-01 Ha
+11/09 06:28:30 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:28:30 PM Architecture id = 227
+11/09 06:28:30 PM L5|2,3,2,4,0;3,2,3,4,2;2,1,0,0,0;0,0,0,2,3;2,1,4,4,2
+11/09 06:28:41 PM   energy = -0.6624663284 Ha, error = 4.748e-01 Ha
+11/09 06:28:41 PM   n_gates = 26, n_cx = 11, depth = 12, n_params = 11
+11/09 06:28:41 PM Architecture id = 228
+11/09 06:28:41 PM L5|2,3,1,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:28:51 PM   energy = -0.7883839255 Ha, error = 3.489e-01 Ha
+11/09 06:28:51 PM   n_gates = 13, n_cx = 3, depth = 6, n_params = 7
+11/09 06:28:51 PM Architecture id = 229
+11/09 06:28:51 PM L5|2,4,1,4,0;3,2,3,4,3;0,1,2,0,0;0,0,0,2,3;0,0,0,0,0
+11/09 06:28:58 PM   energy = -1.1167593093 Ha, error = 2.052e-02 Ha
+11/09 06:28:58 PM   n_gates = 17, n_cx = 6, depth = 10, n_params = 8
+11/09 06:28:58 PM Architecture id = 230
+11/09 06:28:58 PM L5|0,2,1,1,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:29:05 PM   energy = -0.7883904319 Ha, error = 3.489e-01 Ha
+11/09 06:29:05 PM   n_gates = 16, n_cx = 6, depth = 10, n_params = 7
+11/09 06:29:05 PM Architecture id = 231
+11/09 06:29:05 PM L4|0,3,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:29:09 PM   energy = -1.1167592994 Ha, error = 2.052e-02 Ha
+11/09 06:29:09 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:29:09 PM Architecture id = 232
+11/09 06:29:09 PM L5|0,2,1,4,0;3,1,2,4,2;2,1,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:29:17 PM   energy = -1.1372826723 Ha, error = 1.162e-06 Ha
+11/09 06:29:17 PM   n_gates = 13, n_cx = 4, depth = 5, n_params = 7
+11/09 06:29:17 PM Architecture id = 233
+11/09 06:29:17 PM L5|2,3,2,1,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;2,1,4,4,2
+11/09 06:29:27 PM   energy = -0.5382053907 Ha, error = 5.991e-01 Ha
+11/09 06:29:27 PM   n_gates = 24, n_cx = 10, depth = 13, n_params = 11
+11/09 06:29:27 PM Architecture id = 234
+11/09 06:29:27 PM L5|2,3,2,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3;2,1,2,4,2
+11/09 06:29:37 PM   energy = -1.1372838345 Ha, error = -1.280e-10 Ha
+11/09 06:29:37 PM   n_gates = 21, n_cx = 7, depth = 10, n_params = 11
+11/09 06:29:37 PM Architecture id = 235
+11/09 06:29:37 PM L5|0,2,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:29:41 PM   energy = -1.1167592881 Ha, error = 2.052e-02 Ha
+11/09 06:29:41 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:29:41 PM Architecture id = 236
+11/09 06:29:41 PM L1|0,2,1,1,0
+11/09 06:29:45 PM   energy = -1.1167592305 Ha, error = 2.052e-02 Ha
+11/09 06:29:45 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 06:29:45 PM Architecture id = 237
+11/09 06:29:45 PM L1|0,1,2,2,0
+11/09 06:29:50 PM   energy = -1.1167592305 Ha, error = 2.052e-02 Ha
+11/09 06:29:50 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 06:29:50 PM Architecture id = 238
+11/09 06:29:50 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;2,0,4,4,3;0,4,0,4,1
+11/09 06:30:01 PM   energy = -1.1372837050 Ha, error = 1.294e-07 Ha
+11/09 06:30:01 PM   n_gates = 27, n_cx = 12, depth = 18, n_params = 9
+11/09 06:30:01 PM Architecture id = 239
+11/09 06:30:01 PM L1|1,2,0,2,0
+11/09 06:30:06 PM   energy = -1.1167592217 Ha, error = 2.052e-02 Ha
+11/09 06:30:06 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 06:30:06 PM Architecture id = 240
+11/09 06:30:06 PM L6|2,3,1,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,0,2;0,0,0,4,3;0,4,0,4,1
+11/09 06:30:16 PM   energy = -0.4615560107 Ha, error = 6.757e-01 Ha
+11/09 06:30:16 PM   n_gates = 25, n_cx = 13, depth = 16, n_params = 7
+11/09 06:30:16 PM generation = 12
+11/09 06:30:16 PM population error: best = -8.496e-10, mean = 1.334e-02, median = 2.052e-02, worst = 2.052e-02
+11/09 06:30:16 PM population cost : best = 2.0, mean = 8.10, median = 3.00, worst = 24.0
+11/09 06:30:16 PM Architecture id = 241
+11/09 06:30:16 PM L5|0,2,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,1
+11/09 06:30:21 PM   energy = -0.5382054209 Ha, error = 5.991e-01 Ha
+11/09 06:30:21 PM   n_gates = 5, n_cx = 3, depth = 4, n_params = 2
+11/09 06:30:21 PM Architecture id = 242
+11/09 06:30:21 PM L5|2,3,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,2,3;2,2,2,4,2
+11/09 06:30:30 PM   energy = -1.1372838285 Ha, error = 5.932e-09 Ha
+11/09 06:30:30 PM   n_gates = 15, n_cx = 7, depth = 8, n_params = 7
+11/09 06:30:30 PM Architecture id = 243
+11/09 06:30:30 PM L5|0,2,0,2,0;0,2,3,4,3;0,1,2,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:30:40 PM   energy = -1.1167572644 Ha, error = 2.053e-02 Ha
+11/09 06:30:40 PM   n_gates = 10, n_cx = 3, depth = 6, n_params = 6
+11/09 06:30:40 PM Architecture id = 244
+11/09 06:30:40 PM L1|0,1,2,4,0
+11/09 06:30:44 PM   energy = -0.7811875528 Ha, error = 3.561e-01 Ha
+11/09 06:30:44 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:30:44 PM Architecture id = 245
+11/09 06:30:44 PM L5|2,3,2,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,2,3;2,1,4,4,2
+11/09 06:30:53 PM   energy = -1.1167589040 Ha, error = 2.052e-02 Ha
+11/09 06:30:53 PM   n_gates = 16, n_cx = 7, depth = 8, n_params = 6
+11/09 06:30:53 PM Architecture id = 246
+11/09 06:30:53 PM L5|2,3,1,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3;2,1,2,0,0
+11/09 06:31:04 PM   energy = -1.1221026815 Ha, error = 1.518e-02 Ha
+11/09 06:31:04 PM   n_gates = 16, n_cx = 3, depth = 8, n_params = 11
+11/09 06:31:04 PM Architecture id = 247
+11/09 06:31:04 PM L4|0,1,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:31:09 PM   energy = -1.1167592881 Ha, error = 2.052e-02 Ha
+11/09 06:31:09 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:31:09 PM Architecture id = 248
+11/09 06:31:09 PM L5|2,3,2,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:31:09 PM   energy = -0.5369599055 Ha, error = 6.003e-01 Ha
+11/09 06:31:09 PM   n_gates = 12, n_cx = 3, depth = 6, n_params = 7
+11/09 06:31:09 PM Architecture id = 249
+11/09 06:31:09 PM L5|0,2,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,2,3;2,1,4,4,2
+11/09 06:31:15 PM   energy = -0.4881944798 Ha, error = 6.491e-01 Ha
+11/09 06:31:15 PM   n_gates = 14, n_cx = 7, depth = 8, n_params = 5
+11/09 06:31:15 PM Architecture id = 250
+11/09 06:31:15 PM L5|0,2,0,2,0;0,0,0,0,0;2,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:31:20 PM   energy = -1.1167590443 Ha, error = 2.052e-02 Ha
+11/09 06:31:20 PM   n_gates = 3, n_cx = 0, depth = 2, n_params = 3
+11/09 06:31:20 PM Architecture id = 251
+11/09 06:31:20 PM L5|2,3,2,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,0,3;2,1,2,4,2
+11/09 06:31:28 PM   energy = -0.8340285539 Ha, error = 3.033e-01 Ha
+11/09 06:31:28 PM   n_gates = 20, n_cx = 7, depth = 9, n_params = 10
+11/09 06:31:28 PM Architecture id = 252
+11/09 06:31:28 PM L3|0,3,0,2,0;0,0,0,0,0;0,1,0,0,0
+11/09 06:31:31 PM   energy = -1.1167591785 Ha, error = 2.052e-02 Ha
+11/09 06:31:31 PM   n_gates = 3, n_cx = 0, depth = 2, n_params = 3
+11/09 06:31:31 PM Architecture id = 253
+11/09 06:31:31 PM L1|0,3,0,1,0
+11/09 06:31:35 PM   energy = -1.1167592994 Ha, error = 2.052e-02 Ha
+11/09 06:31:35 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:31:35 PM Architecture id = 254
+11/09 06:31:35 PM L5|0,1,1,1,0;0,0,0,0,0;0,0,0,0,0;0,0,0,2,3;2,1,4,4,2
+11/09 06:31:42 PM   energy = -0.4881945914 Ha, error = 6.491e-01 Ha
+11/09 06:31:42 PM   n_gates = 15, n_cx = 7, depth = 8, n_params = 6
+11/09 06:31:42 PM Architecture id = 255
+11/09 06:31:42 PM L5|2,3,1,4,0;0,2,3,4,3;0,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:31:46 PM   energy = -1.1167591709 Ha, error = 2.052e-02 Ha
+11/09 06:31:46 PM   n_gates = 16, n_cx = 6, depth = 10, n_params = 6
+11/09 06:31:46 PM Architecture id = 256
+11/09 06:31:46 PM L4|0,2,1,4,0;3,2,3,4,2;2,0,0,0,0;0,0,0,0,0
+11/09 06:31:50 PM   energy = -0.5382051072 Ha, error = 5.991e-01 Ha
+11/09 06:31:50 PM   n_gates = 12, n_cx = 4, depth = 5, n_params = 6
+11/09 06:31:50 PM Architecture id = 257
+11/09 06:31:50 PM L5|2,3,2,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,0,0;2,1,4,4,2
+11/09 06:31:59 PM   energy = -0.8340283480 Ha, error = 3.033e-01 Ha
+11/09 06:31:59 PM   n_gates = 20, n_cx = 7, depth = 9, n_params = 9
+11/09 06:31:59 PM Architecture id = 258
+11/09 06:31:59 PM L5|2,3,2,4,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;2,1,4,2,2
+11/09 06:32:08 PM   energy = -0.5382054352 Ha, error = 5.991e-01 Ha
+11/09 06:32:08 PM   n_gates = 24, n_cx = 10, depth = 13, n_params = 11
+11/09 06:32:08 PM Architecture id = 259
+11/09 06:32:08 PM L5|0,3,0,2,0;0,0,0,0,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:32:13 PM   energy = -1.1372838317 Ha, error = 2.712e-09 Ha
+11/09 06:32:13 PM   n_gates = 12, n_cx = 6, depth = 9, n_params = 4
+11/09 06:32:13 PM Architecture id = 260
+11/09 06:32:13 PM L4|2,3,1,4,0;0,2,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:32:16 PM   energy = -1.1167591709 Ha, error = 2.052e-02 Ha
+11/09 06:32:16 PM   n_gates = 7, n_cx = 0, depth = 2, n_params = 5
+11/09 06:32:16 PM generation = 13
+11/09 06:32:16 PM population error: best = -8.496e-10, mean = 1.437e-02, median = 2.052e-02, worst = 2.052e-02
+11/09 06:32:16 PM population cost : best = 2.0, mean = 7.10, median = 3.00, worst = 24.0
+11/09 06:32:16 PM Architecture id = 261
+11/09 06:32:16 PM L5|2,3,2,4,0;0,2,3,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,2
+11/09 06:32:19 PM   energy = -0.1490846212 Ha, error = 9.882e-01 Ha
+11/09 06:32:19 PM   n_gates = 12, n_cx = 4, depth = 5, n_params = 5
+11/09 06:32:19 PM Architecture id = 262
+11/09 06:32:19 PM L1|2,3,2,4,0
+11/09 06:32:23 PM   energy = -0.7811873924 Ha, error = 3.561e-01 Ha
+11/09 06:32:23 PM   n_gates = 4, n_cx = 0, depth = 1, n_params = 3
+11/09 06:32:23 PM Architecture id = 263
+11/09 06:32:23 PM L4|0,3,0,2,0;0,0,0,0,3;0,1,2,0,0;0,0,0,0,0
+11/09 06:32:31 PM   energy = -1.1167424536 Ha, error = 2.054e-02 Ha
+11/09 06:32:31 PM   n_gates = 7, n_cx = 3, depth = 5, n_params = 4
+11/09 06:32:31 PM Architecture id = 264
+11/09 06:32:31 PM L5|0,2,1,2,0;0,0,0,0,0;0,1,2,0,0;0,0,0,2,3;2,1,2,0,0
+11/09 06:32:40 PM   energy = -1.1167574774 Ha, error = 2.053e-02 Ha
+11/09 06:32:40 PM   n_gates = 12, n_cx = 3, depth = 7, n_params = 9
+11/09 06:32:40 PM Architecture id = 265
+11/09 06:32:40 PM L4|0,3,0,1,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:32:44 PM   energy = -1.1167592994 Ha, error = 2.052e-02 Ha
+11/09 06:32:44 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:32:44 PM Architecture id = 266
+11/09 06:32:44 PM L5|0,1,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,1,2,4,2
+11/09 06:32:50 PM   energy = -0.5382027268 Ha, error = 5.991e-01 Ha
+11/09 06:32:50 PM   n_gates = 9, n_cx = 4, depth = 4, n_params = 4
+11/09 06:32:50 PM Architecture id = 267
+11/09 06:32:50 PM L5|2,3,2,4,0;0,2,3,4,0;0,0,0,0,0;0,0,0,2,3;2,1,4,4,2
+11/09 06:33:00 PM   energy = -1.1372831567 Ha, error = 6.777e-07 Ha
+11/09 06:33:00 PM   n_gates = 19, n_cx = 7, depth = 9, n_params = 8
+11/09 06:33:00 PM Architecture id = 268
+11/09 06:33:00 PM L5|2,3,2,4,0;0,2,3,4,0;0,0,0,0,0;0,0,0,0,3;2,1,2,4,2
+11/09 06:33:06 PM   energy = -0.8340285610 Ha, error = 3.033e-01 Ha
+11/09 06:33:06 PM   n_gates = 18, n_cx = 7, depth = 8, n_params = 8
+11/09 06:33:06 PM Architecture id = 269
+11/09 06:33:06 PM L5|0,2,1,1,0;0,0,0,0,0;0,0,1,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:33:10 PM   energy = -1.1167579319 Ha, error = 2.053e-02 Ha
+11/09 06:33:10 PM   n_gates = 4, n_cx = 0, depth = 2, n_params = 4
+11/09 06:33:10 PM Architecture id = 270
+11/09 06:33:10 PM L5|2,3,1,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:33:10 PM   energy = -0.7883839255 Ha, error = 3.489e-01 Ha
+11/09 06:33:10 PM   n_gates = 13, n_cx = 3, depth = 6, n_params = 7
+11/09 06:33:10 PM Architecture id = 271
+11/09 06:33:10 PM L5|2,2,1,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:33:16 PM   energy = -1.1372838074 Ha, error = 2.697e-08 Ha
+11/09 06:33:16 PM   n_gates = 17, n_cx = 6, depth = 10, n_params = 7
+11/09 06:33:16 PM Architecture id = 272
+11/09 06:33:16 PM L1|0,1,0,1,0
+11/09 06:33:20 PM   energy = -1.1167592881 Ha, error = 2.052e-02 Ha
+11/09 06:33:20 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:33:20 PM Architecture id = 273
+11/09 06:33:20 PM L1|0,1,2,1,0
+11/09 06:33:24 PM   energy = -1.1167592305 Ha, error = 2.052e-02 Ha
+11/09 06:33:24 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 06:33:24 PM Architecture id = 274
+11/09 06:33:24 PM L5|0,2,1,1,0;0,0,0,4,3;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:33:32 PM   energy = -0.7811800614 Ha, error = 3.561e-01 Ha
+11/09 06:33:32 PM   n_gates = 7, n_cx = 3, depth = 5, n_params = 3
+11/09 06:33:32 PM Architecture id = 275
+11/09 06:33:32 PM L5|2,3,1,4,0;0,2,3,0,0;2,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:33:41 PM   energy = -0.5344893129 Ha, error = 6.028e-01 Ha
+11/09 06:33:41 PM   n_gates = 13, n_cx = 3, depth = 7, n_params = 7
+11/09 06:33:41 PM Architecture id = 276
+11/09 06:33:41 PM L4|0,1,0,2,0;0,0,0,0,1;0,0,0,0,0;0,0,0,0,0
+11/09 06:33:45 PM   energy = -0.5382054209 Ha, error = 5.991e-01 Ha
+11/09 06:33:45 PM   n_gates = 5, n_cx = 3, depth = 4, n_params = 2
+11/09 06:33:45 PM Architecture id = 277
+11/09 06:33:45 PM L5|0,2,1,1,0;0,0,0,0,0;0,0,0,1,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:33:51 PM   energy = -1.1167592610 Ha, error = 2.052e-02 Ha
+11/09 06:33:51 PM   n_gates = 4, n_cx = 0, depth = 2, n_params = 4
+11/09 06:33:51 PM Architecture id = 278
+11/09 06:33:51 PM L1|0,3,0,4,0
+11/09 06:33:51 PM   energy = -0.7811875700 Ha, error = 3.561e-01 Ha
+11/09 06:33:51 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 1
+11/09 06:33:51 PM Architecture id = 279
+11/09 06:33:51 PM L5|2,3,2,2,0;0,2,3,4,3;0,1,2,0,0;0,0,0,2,3;2,1,4,4,2
+11/09 06:34:01 PM   energy = -0.5382050466 Ha, error = 5.991e-01 Ha
+11/09 06:34:01 PM   n_gates = 24, n_cx = 10, depth = 13, n_params = 11
+11/09 06:34:01 PM Architecture id = 280
+11/09 06:34:01 PM L4|0,1,0,2,0;0,1,0,0,0;0,0,3,4,0;0,0,0,0,0
+11/09 06:34:08 PM   energy = -1.1167593060 Ha, error = 2.052e-02 Ha
+11/09 06:34:08 PM   n_gates = 5, n_cx = 0, depth = 3, n_params = 4
+11/09 06:34:08 PM generation = 14
+11/09 06:34:08 PM population error: best = -8.496e-10, mean = 3.115e-02, median = 2.052e-02, worst = 3.561e-01
+11/09 06:34:08 PM population cost : best = 2.0, mean = 6.70, median = 2.00, worst = 21.0
+11/09 06:34:08 PM Architecture id = 281
+11/09 06:34:08 PM L5|2,2,1,4,0;0,2,3,4,1;1,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:34:18 PM   energy = -0.5382051775 Ha, error = 5.991e-01 Ha
+11/09 06:34:18 PM   n_gates = 17, n_cx = 6, depth = 10, n_params = 7
+11/09 06:34:18 PM Architecture id = 282
+11/09 06:34:18 PM L5|0,3,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:34:22 PM   energy = -1.1167592994 Ha, error = 2.052e-02 Ha
+11/09 06:34:22 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:34:22 PM Architecture id = 283
+11/09 06:34:22 PM L4|0,3,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:34:22 PM   energy = -1.1167593100 Ha, error = 2.052e-02 Ha
+11/09 06:34:22 PM   n_gates = 1, n_cx = 0, depth = 1, n_params = 1
+11/09 06:34:22 PM Architecture id = 284
+11/09 06:34:22 PM L5|2,3,2,4,0;0,2,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:34:30 PM   energy = -0.5307725650 Ha, error = 6.065e-01 Ha
+11/09 06:34:30 PM   n_gates = 9, n_cx = 3, depth = 6, n_params = 4
+11/09 06:34:30 PM Architecture id = 285
+11/09 06:34:30 PM L1|0,2,1,1,0
+11/09 06:34:30 PM   energy = -1.1167592305 Ha, error = 2.052e-02 Ha
+11/09 06:34:30 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 06:34:30 PM Architecture id = 286
+11/09 06:34:30 PM L5|2,3,1,4,0;0,1,3,4,3;2,0,3,4,0;0,0,0,0,1;0,0,0,4,3
+11/09 06:34:40 PM   energy = -1.1167592955 Ha, error = 2.052e-02 Ha
+11/09 06:34:40 PM   n_gates = 20, n_cx = 9, depth = 13, n_params = 7
+11/09 06:34:40 PM Architecture id = 287
+11/09 06:34:40 PM L5|2,3,1,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;1,0,0,4,3
+11/09 06:34:47 PM   energy = -1.1372836956 Ha, error = 1.388e-07 Ha
+11/09 06:34:47 PM   n_gates = 18, n_cx = 6, depth = 10, n_params = 8
+11/09 06:34:47 PM Architecture id = 288
+11/09 06:34:47 PM L5|0,3,0,1,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:34:51 PM   energy = -1.1167592994 Ha, error = 2.052e-02 Ha
+11/09 06:34:51 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:34:51 PM Architecture id = 289
+11/09 06:34:51 PM L5|2,2,1,4,0;0,2,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:34:59 PM   energy = -0.5307725682 Ha, error = 6.065e-01 Ha
+11/09 06:34:59 PM   n_gates = 9, n_cx = 3, depth = 6, n_params = 4
+11/09 06:34:59 PM Architecture id = 290
+11/09 06:34:59 PM L1|0,2,1,4,0
+11/09 06:34:59 PM   energy = -0.7811875528 Ha, error = 3.561e-01 Ha
+11/09 06:34:59 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:34:59 PM Architecture id = 291
+11/09 06:34:59 PM L5|2,2,1,4,0;0,2,0,0,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:35:05 PM   energy = -0.7883902995 Ha, error = 3.489e-01 Ha
+11/09 06:35:05 PM   n_gates = 15, n_cx = 6, depth = 10, n_params = 6
+11/09 06:35:05 PM Architecture id = 292
+11/09 06:35:05 PM L4|0,2,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:35:09 PM   energy = -1.1167592881 Ha, error = 2.052e-02 Ha
+11/09 06:35:09 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:35:09 PM Architecture id = 293
+11/09 06:35:09 PM L5|2,3,2,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,2
+11/09 06:35:15 PM   energy = -0.5382030232 Ha, error = 5.991e-01 Ha
+11/09 06:35:15 PM   n_gates = 9, n_cx = 4, depth = 4, n_params = 4
+11/09 06:35:15 PM Architecture id = 294
+11/09 06:35:15 PM L1|1,3,0,2,0
+11/09 06:35:20 PM   energy = -1.1167592826 Ha, error = 2.052e-02 Ha
+11/09 06:35:20 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 06:35:20 PM Architecture id = 295
+11/09 06:35:20 PM L5|0,1,0,2,0;0,1,0,0,0;0,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:35:26 PM   energy = -1.1167593060 Ha, error = 2.052e-02 Ha
+11/09 06:35:26 PM   n_gates = 5, n_cx = 0, depth = 3, n_params = 4
+11/09 06:35:26 PM Architecture id = 296
+11/09 06:35:26 PM L1|1,2,0,4,0
+11/09 06:35:30 PM   energy = -0.7811875483 Ha, error = 3.561e-01 Ha
+11/09 06:35:30 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:35:30 PM Architecture id = 297
+11/09 06:35:30 PM L4|0,3,0,2,0;0,0,1,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:35:34 PM   energy = -1.1167591636 Ha, error = 2.052e-02 Ha
+11/09 06:35:34 PM   n_gates = 3, n_cx = 0, depth = 2, n_params = 3
+11/09 06:35:34 PM Architecture id = 298
+11/09 06:35:34 PM L5|2,3,2,4,0;0,0,3,4,0;0,1,2,0,0;0,0,0,2,3;2,1,2,4,2
+11/09 06:35:43 PM   energy = -1.1167593068 Ha, error = 2.052e-02 Ha
+11/09 06:35:43 PM   n_gates = 20, n_cx = 7, depth = 10, n_params = 10
+11/09 06:35:43 PM Architecture id = 299
+11/09 06:35:43 PM L5|0,3,0,2,0;0,0,0,0,3;2,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:35:49 PM   energy = -0.5307702808 Ha, error = 6.065e-01 Ha
+11/09 06:35:50 PM   n_gates = 8, n_cx = 3, depth = 5, n_params = 4
+11/09 06:35:50 PM Architecture id = 300
+11/09 06:35:50 PM L5|0,2,1,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:35:58 PM   energy = -1.1167547907 Ha, error = 2.053e-02 Ha
+11/09 06:35:58 PM   n_gates = 7, n_cx = 3, depth = 5, n_params = 3
+11/09 06:35:58 PM generation = 15
+11/09 06:35:58 PM population error: best = -8.496e-10, mean = 1.539e-02, median = 2.052e-02, worst = 2.052e-02
+11/09 06:35:58 PM population cost : best = 1.0, mean = 5.65, median = 2.00, worst = 21.0
+11/09 06:35:58 PM Architecture id = 301
+11/09 06:35:58 PM L5|2,3,2,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:36:06 PM   energy = -1.1372838352 Ha, error = -8.496e-10 Ha
+11/09 06:36:06 PM   n_gates = 17, n_cx = 6, depth = 10, n_params = 7
+11/09 06:36:06 PM Architecture id = 302
+11/09 06:36:06 PM L1|0,1,0,0,0
+11/09 06:36:10 PM   energy = -1.1167593047 Ha, error = 2.052e-02 Ha
+11/09 06:36:10 PM   n_gates = 1, n_cx = 0, depth = 1, n_params = 1
+11/09 06:36:10 PM Architecture id = 303
+11/09 06:36:10 PM L4|0,3,0,2,0;0,1,0,0,0;0,0,3,0,0;0,0,0,0,0
+11/09 06:36:14 PM   energy = -1.1167591785 Ha, error = 2.052e-02 Ha
+11/09 06:36:14 PM   n_gates = 4, n_cx = 0, depth = 3, n_params = 4
+11/09 06:36:14 PM Architecture id = 304
+11/09 06:36:14 PM L5|0,3,1,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:36:23 PM   energy = -0.7811854341 Ha, error = 3.561e-01 Ha
+11/09 06:36:23 PM   n_gates = 12, n_cx = 3, depth = 6, n_params = 6
+11/09 06:36:23 PM Architecture id = 305
+11/09 06:36:23 PM L5|2,3,1,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3;2,1,2,4,2
+11/09 06:36:33 PM   energy = -1.1372838357 Ha, error = -1.314e-09 Ha
+11/09 06:36:33 PM   n_gates = 21, n_cx = 7, depth = 10, n_params = 11
+11/09 06:36:33 PM Architecture id = 306
+11/09 06:36:33 PM L4|0,3,0,1,1;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:36:37 PM   energy = -0.5382054270 Ha, error = 5.991e-01 Ha
+11/09 06:36:37 PM   n_gates = 5, n_cx = 3, depth = 4, n_params = 2
+11/09 06:36:37 PM Architecture id = 307
+11/09 06:36:37 PM L5|2,3,2,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,1,2,4,2
+11/09 06:36:42 PM   energy = -0.5382052788 Ha, error = 5.991e-01 Ha
+11/09 06:36:42 PM   n_gates = 11, n_cx = 4, depth = 4, n_params = 5
+11/09 06:36:42 PM Architecture id = 308
+11/09 06:36:42 PM L4|0,1,0,2,0;0,0,0,0,0;0,0,0,4,0;0,0,0,0,0
+11/09 06:36:47 PM   energy = -1.1167569732 Ha, error = 2.053e-02 Ha
+11/09 06:36:47 PM   n_gates = 3, n_cx = 0, depth = 2, n_params = 2
+11/09 06:36:47 PM Architecture id = 309
+11/09 06:36:47 PM L5|2,3,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:36:54 PM   energy = -0.5307722648 Ha, error = 6.065e-01 Ha
+11/09 06:36:54 PM   n_gates = 7, n_cx = 3, depth = 5, n_params = 3
+11/09 06:36:54 PM Architecture id = 310
+11/09 06:36:54 PM L5|0,2,0,2,0;0,1,0,0,0;0,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:37:00 PM   energy = -1.1167569696 Ha, error = 2.053e-02 Ha
+11/09 06:37:00 PM   n_gates = 5, n_cx = 0, depth = 3, n_params = 4
+11/09 06:37:00 PM Architecture id = 311
+11/09 06:37:00 PM L5|0,3,0,1,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,2
+11/09 06:37:00 PM   energy = -0.1490849800 Ha, error = 9.882e-01 Ha
+11/09 06:37:00 PM   n_gates = 7, n_cx = 4, depth = 4, n_params = 2
+11/09 06:37:00 PM Architecture id = 312
+11/09 06:37:00 PM L5|0,3,0,1,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:37:05 PM   energy = -0.5307733353 Ha, error = 6.065e-01 Ha
+11/09 06:37:05 PM   n_gates = 11, n_cx = 3, depth = 6, n_params = 6
+11/09 06:37:05 PM Architecture id = 313
+11/09 06:37:05 PM L5|2,3,2,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3;2,1,0,0,0
+11/09 06:37:16 PM   energy = -0.5307721724 Ha, error = 6.065e-01 Ha
+11/09 06:37:16 PM   n_gates = 15, n_cx = 3, depth = 8, n_params = 10
+11/09 06:37:16 PM Architecture id = 314
+11/09 06:37:16 PM L5|2,3,1,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:37:24 PM   energy = -0.5307725628 Ha, error = 6.065e-01 Ha
+11/09 06:37:24 PM   n_gates = 8, n_cx = 3, depth = 5, n_params = 3
+11/09 06:37:24 PM Architecture id = 315
+11/09 06:37:24 PM L5|2,3,1,4,0;0,2,3,4,3;0,0,0,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:37:28 PM   energy = -1.1167591709 Ha, error = 2.052e-02 Ha
+11/09 06:37:28 PM   n_gates = 15, n_cx = 6, depth = 10, n_params = 5
+11/09 06:37:28 PM Architecture id = 316
+11/09 06:37:28 PM L5|0,2,0,1,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:37:32 PM   energy = -1.1167592881 Ha, error = 2.052e-02 Ha
+11/09 06:37:32 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:37:32 PM Architecture id = 317
+11/09 06:37:32 PM L5|0,1,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:37:36 PM   energy = -1.1167592881 Ha, error = 2.052e-02 Ha
+11/09 06:37:36 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:37:36 PM Architecture id = 318
+11/09 06:37:36 PM L4|0,3,0,0,0;0,0,0,0,3;2,0,3,0,0;0,0,0,0,0
+11/09 06:37:40 PM   energy = 0.3555207231 Ha, error = 1.493e+00 Ha
+11/09 06:37:40 PM   n_gates = 6, n_cx = 3, depth = 5, n_params = 3
+11/09 06:37:40 PM Architecture id = 319
+11/09 06:37:40 PM L5|2,3,1,4,0;0,2,3,4,0;0,0,0,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:37:49 PM   energy = -0.5307725650 Ha, error = 6.065e-01 Ha
+11/09 06:37:49 PM   n_gates = 12, n_cx = 3, depth = 7, n_params = 5
+11/09 06:37:49 PM Architecture id = 320
+11/09 06:37:49 PM L5|0,3,0,2,0;0,0,0,1,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:37:53 PM   energy = -1.1167591632 Ha, error = 2.052e-02 Ha
+11/09 06:37:53 PM   n_gates = 3, n_cx = 0, depth = 2, n_params = 3
+11/09 06:37:53 PM generation = 16
+11/09 06:37:53 PM population error: best = -1.314e-09, mean = 1.334e-02, median = 2.052e-02, worst = 2.052e-02
+11/09 06:37:53 PM population cost : best = 1.0, mean = 7.30, median = 2.00, worst = 21.0
+11/09 06:37:53 PM Architecture id = 321
+11/09 06:37:53 PM L5|0,1,0,1,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3;2,1,2,4,2
+11/09 06:38:00 PM   energy = -1.1372835620 Ha, error = 2.724e-07 Ha
+11/09 06:38:00 PM   n_gates = 19, n_cx = 7, depth = 10, n_params = 10
+11/09 06:38:00 PM Architecture id = 322
+11/09 06:38:00 PM L5|2,3,1,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,0,3
+11/09 06:38:07 PM   energy = -0.7883904864 Ha, error = 3.489e-01 Ha
+11/09 06:38:07 PM   n_gates = 16, n_cx = 6, depth = 9, n_params = 7
+11/09 06:38:07 PM Architecture id = 323
+11/09 06:38:07 PM L5|0,1,0,2,0;0,1,0,0,0;0,1,2,0,0;0,0,0,2,3;2,1,2,4,2
+11/09 06:38:17 PM   energy = -1.1167591524 Ha, error = 2.052e-02 Ha
+11/09 06:38:17 PM   n_gates = 17, n_cx = 7, depth = 10, n_params = 9
+11/09 06:38:17 PM Architecture id = 324
+11/09 06:38:17 PM L5|2,3,1,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,3,3
+11/09 06:38:25 PM   energy = -0.7883904864 Ha, error = 3.489e-01 Ha
+11/09 06:38:25 PM   n_gates = 17, n_cx = 6, depth = 10, n_params = 8
+11/09 06:38:25 PM Architecture id = 325
+11/09 06:38:25 PM L5|2,3,2,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:38:29 PM   energy = -0.7811873924 Ha, error = 3.561e-01 Ha
+11/09 06:38:29 PM   n_gates = 4, n_cx = 0, depth = 1, n_params = 3
+11/09 06:38:29 PM Architecture id = 326
+11/09 06:38:29 PM L5|2,3,2,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,0
+11/09 06:38:39 PM   energy = -0.5307723798 Ha, error = 6.065e-01 Ha
+11/09 06:38:39 PM   n_gates = 14, n_cx = 3, depth = 7, n_params = 7
+11/09 06:38:39 PM Architecture id = 327
+11/09 06:38:39 PM L5|2,3,1,4,0;0,2,3,4,0;0,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:38:44 PM   energy = -0.7811873604 Ha, error = 3.561e-01 Ha
+11/09 06:38:44 PM   n_gates = 9, n_cx = 0, depth = 3, n_params = 6
+11/09 06:38:44 PM Architecture id = 328
+11/09 06:38:44 PM L5|0,2,1,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:38:44 PM   energy = -0.7811875528 Ha, error = 3.561e-01 Ha
+11/09 06:38:44 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:38:44 PM Architecture id = 329
+11/09 06:38:44 PM L5|2,3,2,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3;2,1,2,4,3
+11/09 06:38:55 PM   energy = -1.1372838359 Ha, error = -1.477e-09 Ha
+11/09 06:38:55 PM   n_gates = 20, n_cx = 6, depth = 11, n_params = 11
+11/09 06:38:55 PM Architecture id = 330
+11/09 06:38:55 PM L5|0,1,0,2,0;0,0,0,0,0;0,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:39:00 PM   energy = -1.1167569732 Ha, error = 2.053e-02 Ha
+11/09 06:39:00 PM   n_gates = 4, n_cx = 0, depth = 2, n_params = 3
+11/09 06:39:00 PM Architecture id = 331
+11/09 06:39:00 PM L5|2,3,1,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3;2,1,0,4,2
+11/09 06:39:09 PM   energy = -1.1372838359 Ha, error = -1.477e-09 Ha
+11/09 06:39:09 PM   n_gates = 20, n_cx = 7, depth = 10, n_params = 10
+11/09 06:39:09 PM Architecture id = 332
+11/09 06:39:09 PM L5|0,3,0,2,0;0,0,0,0,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,2
+11/09 06:39:17 PM   energy = -1.1167592981 Ha, error = 2.052e-02 Ha
+11/09 06:39:17 PM   n_gates = 13, n_cx = 7, depth = 8, n_params = 4
+11/09 06:39:17 PM Architecture id = 333
+11/09 06:39:17 PM L4|0,3,0,0,0;0,1,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:39:21 PM   energy = -1.1167593008 Ha, error = 2.052e-02 Ha
+11/09 06:39:21 PM   n_gates = 2, n_cx = 0, depth = 2, n_params = 2
+11/09 06:39:21 PM Architecture id = 334
+11/09 06:39:21 PM L5|0,0,1,4,0;3,1,2,4,2;2,1,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:39:30 PM   energy = -1.1167581718 Ha, error = 2.053e-02 Ha
+11/09 06:39:30 PM   n_gates = 12, n_cx = 4, depth = 5, n_params = 6
+11/09 06:39:30 PM Architecture id = 335
+11/09 06:39:30 PM L5|0,1,0,2,0;0,1,0,4,0;0,1,2,0,0;0,0,0,2,3;2,1,2,0,0
+11/09 06:39:37 PM   energy = -1.1167573812 Ha, error = 2.053e-02 Ha
+11/09 06:39:37 PM   n_gates = 13, n_cx = 3, depth = 8, n_params = 9
+11/09 06:39:37 PM Architecture id = 336
+11/09 06:39:37 PM L5|0,3,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:39:43 PM   energy = -0.5307733700 Ha, error = 6.065e-01 Ha
+11/09 06:39:43 PM   n_gates = 6, n_cx = 3, depth = 5, n_params = 2
+11/09 06:39:43 PM Architecture id = 337
+11/09 06:39:43 PM L5|2,3,1,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,0
+11/09 06:39:52 PM   energy = -0.5307723798 Ha, error = 6.065e-01 Ha
+11/09 06:39:52 PM   n_gates = 14, n_cx = 3, depth = 7, n_params = 7
+11/09 06:39:52 PM Architecture id = 338
+11/09 06:39:52 PM L5|2,3,2,4,0;0,2,3,0,0;0,0,3,4,0;0,0,0,0,0;0,0,0,4,2
+11/09 06:39:55 PM   energy = -0.1490846212 Ha, error = 9.882e-01 Ha
+11/09 06:39:55 PM   n_gates = 13, n_cx = 4, depth = 6, n_params = 6
+11/09 06:39:55 PM Architecture id = 339
+11/09 06:39:55 PM L4|0,1,0,2,0;0,0,0,0,3;2,0,3,4,0;0,0,0,0,0
+11/09 06:40:02 PM   energy = -0.5307733647 Ha, error = 6.065e-01 Ha
+11/09 06:40:02 PM   n_gates = 8, n_cx = 3, depth = 5, n_params = 4
+11/09 06:40:02 PM Architecture id = 340
+11/09 06:40:02 PM L4|0,3,0,0,0;0,0,0,0,0;0,1,2,0,0;0,0,0,2,3
+11/09 06:40:10 PM   energy = -1.1167460282 Ha, error = 2.054e-02 Ha
+11/09 06:40:10 PM   n_gates = 7, n_cx = 3, depth = 6, n_params = 4
+11/09 06:40:10 PM generation = 17
+11/09 06:40:10 PM population error: best = -1.477e-09, mean = 1.026e-02, median = 1.026e-02, worst = 2.052e-02
+11/09 06:40:10 PM population cost : best = 1.0, mean = 9.95, median = 8.50, worst = 21.0
+11/09 06:40:10 PM Architecture id = 341
+11/09 06:40:10 PM L2|2,3,0,1,0;0,0,0,0,0
+11/09 06:40:15 PM   energy = -1.1167592826 Ha, error = 2.052e-02 Ha
+11/09 06:40:15 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 3
+11/09 06:40:15 PM Architecture id = 342
+11/09 06:40:15 PM L4|0,3,0,0,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3
+11/09 06:40:24 PM   energy = -1.1167531190 Ha, error = 2.053e-02 Ha
+11/09 06:40:24 PM   n_gates = 10, n_cx = 3, depth = 7, n_params = 6
+11/09 06:40:24 PM Architecture id = 343
+11/09 06:40:24 PM L5|2,3,2,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:40:33 PM   energy = -0.7883732177 Ha, error = 3.489e-01 Ha
+11/09 06:40:33 PM   n_gates = 13, n_cx = 3, depth = 7, n_params = 7
+11/09 06:40:33 PM Architecture id = 344
+11/09 06:40:33 PM L5|2,3,2,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3;2,1,0,4,2
+11/09 06:40:42 PM   energy = -1.1372838354 Ha, error = -9.856e-10 Ha
+11/09 06:40:42 PM   n_gates = 20, n_cx = 7, depth = 10, n_params = 10
+11/09 06:40:42 PM Architecture id = 345
+11/09 06:40:42 PM L1|0,3,2,4,0
+11/09 06:40:42 PM   energy = -0.7811875692 Ha, error = 3.561e-01 Ha
+11/09 06:40:42 PM   n_gates = 3, n_cx = 0, depth = 1, n_params = 2
+11/09 06:40:42 PM Architecture id = 346
+11/09 06:40:42 PM L5|2,3,1,4,0;0,0,0,0,0;0,0,0,1,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:40:46 PM   energy = -0.7811873924 Ha, error = 3.561e-01 Ha
+11/09 06:40:46 PM   n_gates = 5, n_cx = 0, depth = 2, n_params = 4
+11/09 06:40:46 PM Architecture id = 347
+11/09 06:40:46 PM L5|0,3,0,2,0;0,0,0,0,3;2,0,3,4,0;0,0,0,2,3;2,1,2,4,3
+11/09 06:40:56 PM   energy = -1.1372816716 Ha, error = 2.163e-06 Ha
+11/09 06:40:56 PM   n_gates = 19, n_cx = 9, depth = 13, n_params = 8
+11/09 06:40:56 PM Architecture id = 348
+11/09 06:40:56 PM L5|2,3,1,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3;2,0,2,4,2
+11/09 06:41:06 PM   energy = -1.1372838366 Ha, error = -2.202e-09 Ha
+11/09 06:41:06 PM   n_gates = 20, n_cx = 7, depth = 10, n_params = 10
+11/09 06:41:06 PM Architecture id = 349
+11/09 06:41:06 PM L4|0,3,0,0,0;0,1,0,0,0;0,0,0,0,0;0,0,0,2,3
+11/09 06:41:14 PM   energy = -0.5307716329 Ha, error = 6.065e-01 Ha
+11/09 06:41:14 PM   n_gates = 6, n_cx = 3, depth = 6, n_params = 3
+11/09 06:41:14 PM Architecture id = 350
+11/09 06:41:14 PM L5|0,3,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:41:14 PM   energy = -1.1167593100 Ha, error = 2.052e-02 Ha
+11/09 06:41:14 PM   n_gates = 1, n_cx = 0, depth = 1, n_params = 1
+11/09 06:41:14 PM Architecture id = 351
+11/09 06:41:14 PM L4|0,3,0,1,0;0,0,0,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:41:15 PM   energy = -0.7811875700 Ha, error = 3.561e-01 Ha
+11/09 06:41:15 PM   n_gates = 3, n_cx = 0, depth = 2, n_params = 2
+11/09 06:41:15 PM Architecture id = 352
+11/09 06:41:15 PM L5|2,3,2,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:41:19 PM   energy = -1.1167588806 Ha, error = 2.052e-02 Ha
+11/09 06:41:19 PM   n_gates = 9, n_cx = 0, depth = 3, n_params = 7
+11/09 06:41:19 PM Architecture id = 353
+11/09 06:41:19 PM L5|2,3,2,4,0;0,2,3,0,0;0,1,2,0,0;0,0,0,2,3;2,1,2,4,2
+11/09 06:41:28 PM   energy = -1.1372838017 Ha, error = 3.272e-08 Ha
+11/09 06:41:28 PM   n_gates = 20, n_cx = 7, depth = 10, n_params = 11
+11/09 06:41:28 PM Architecture id = 354
+11/09 06:41:28 PM L5|2,3,2,4,0;0,2,0,4,0;0,1,2,0,0;0,0,0,2,3;2,1,2,4,3
+11/09 06:41:39 PM   energy = -1.1372838360 Ha, error = -1.564e-09 Ha
+11/09 06:41:39 PM   n_gates = 19, n_cx = 6, depth = 11, n_params = 10
+11/09 06:41:39 PM Architecture id = 355
+11/09 06:41:39 PM L5|2,3,1,4,0;0,0,0,4,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:41:45 PM   energy = -1.1372838362 Ha, error = -1.803e-09 Ha
+11/09 06:41:45 PM   n_gates = 15, n_cx = 6, depth = 10, n_params = 5
+11/09 06:41:45 PM Architecture id = 356
+11/09 06:41:45 PM L5|0,3,0,1,0;0,0,0,0,0;0,1,2,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:41:50 PM   energy = -1.1167592181 Ha, error = 2.052e-02 Ha
+11/09 06:41:50 PM   n_gates = 4, n_cx = 0, depth = 2, n_params = 4
+11/09 06:41:50 PM Architecture id = 357
+11/09 06:41:50 PM L4|0,3,0,0,0;0,1,0,1,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:41:55 PM   energy = -1.1167591682 Ha, error = 2.052e-02 Ha
+11/09 06:41:55 PM   n_gates = 3, n_cx = 0, depth = 2, n_params = 3
+11/09 06:41:55 PM Architecture id = 358
+11/09 06:41:55 PM L5|0,3,0,2,0;0,0,0,0,3;2,0,3,4,0;0,0,0,0,0;0,0,0,4,1
+11/09 06:42:04 PM   energy = -1.1372824924 Ha, error = 1.342e-06 Ha
+11/09 06:42:04 PM   n_gates = 12, n_cx = 6, depth = 9, n_params = 4
+11/09 06:42:04 PM Architecture id = 359
+11/09 06:42:04 PM L5|2,3,1,4,0;0,2,2,4,0;0,0,0,0,0;0,0,0,2,3;2,1,0,4,2
+11/09 06:42:13 PM   energy = -1.1372838367 Ha, error = -2.273e-09 Ha
+11/09 06:42:13 PM   n_gates = 18, n_cx = 7, depth = 9, n_params = 8
+11/09 06:42:13 PM Architecture id = 360
+11/09 06:42:13 PM L5|2,3,2,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,3,3;2,1,2,4,3
+11/09 06:42:20 PM   energy = -0.7883904196 Ha, error = 3.489e-01 Ha
+11/09 06:42:20 PM   n_gates = 20, n_cx = 6, depth = 11, n_params = 11
+11/09 06:42:20 PM generation = 18
+11/09 06:42:20 PM population error: best = -2.273e-09, mean = 7.184e-03, median = 1.391e-07, worst = 2.052e-02
+11/09 06:42:20 PM population cost : best = 1.0, mean = 11.70, median = 14.00, worst = 20.0
+11/09 06:42:20 PM Architecture id = 361
+11/09 06:42:20 PM L4|0,1,0,2,0;0,2,0,4,3;2,0,3,4,0;0,0,0,0,0
+11/09 06:42:25 PM   energy = -0.5307730816 Ha, error = 6.065e-01 Ha
+11/09 06:42:25 PM   n_gates = 10, n_cx = 3, depth = 6, n_params = 5
+11/09 06:42:25 PM Architecture id = 362
+11/09 06:42:25 PM L4|0,3,0,0,0;0,2,3,4,0;0,1,2,0,0;0,0,0,0,0
+11/09 06:42:30 PM   energy = -0.7811874921 Ha, error = 3.561e-01 Ha
+11/09 06:42:30 PM   n_gates = 6, n_cx = 0, depth = 3, n_params = 5
+11/09 06:42:30 PM Architecture id = 363
+11/09 06:42:30 PM L5|2,3,1,2,0;0,1,0,0,0;0,0,3,4,0;0,0,0,2,3;2,1,0,4,2
+11/09 06:42:36 PM   energy = -1.1167591157 Ha, error = 2.052e-02 Ha
+11/09 06:42:36 PM   n_gates = 18, n_cx = 7, depth = 10, n_params = 9
+11/09 06:42:36 PM Architecture id = 364
+11/09 06:42:36 PM L5|2,3,1,4,0;0,2,3,4,0;0,1,3,4,0;0,0,0,2,3;2,1,0,4,2
+11/09 06:42:43 PM   energy = -1.1372837481 Ha, error = 8.633e-08 Ha
+11/09 06:42:43 PM   n_gates = 21, n_cx = 7, depth = 10, n_params = 10
+11/09 06:42:43 PM Architecture id = 365
+11/09 06:42:43 PM L5|2,3,0,1,0;0,0,0,4,0;0,1,2,0,0;0,0,0,2,3;2,1,2,4,3
+11/09 06:42:53 PM   energy = -1.1372818739 Ha, error = 1.961e-06 Ha
+11/09 06:42:53 PM   n_gates = 17, n_cx = 6, depth = 11, n_params = 9
+11/09 06:42:53 PM Architecture id = 366
+11/09 06:42:53 PM L5|2,3,1,4,0;0,1,0,0,0;0,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:42:56 PM   energy = -1.1167591709 Ha, error = 2.052e-02 Ha
+11/09 06:42:56 PM   n_gates = 7, n_cx = 0, depth = 3, n_params = 5
+11/09 06:42:56 PM Architecture id = 367
+11/09 06:42:56 PM L5|2,3,2,2,0;0,2,3,4,0;0,1,2,0,0;0,0,0,2,3;2,1,2,4,3
+11/09 06:43:05 PM   energy = -1.1372838272 Ha, error = 7.209e-09 Ha
+11/09 06:43:05 PM   n_gates = 20, n_cx = 6, depth = 11, n_params = 12
+11/09 06:43:05 PM Architecture id = 368
+11/09 06:43:05 PM L5|2,3,1,4,0;0,2,2,4,0;0,0,0,0,0;0,0,0,2,3;2,0,2,4,2
+11/09 06:43:14 PM   energy = -1.1372838370 Ha, error = -2.598e-09 Ha
+11/09 06:43:14 PM   n_gates = 18, n_cx = 7, depth = 9, n_params = 8
+11/09 06:43:14 PM Architecture id = 369
+11/09 06:43:14 PM L5|2,3,1,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,2,3;2,0,2,4,2
+11/09 06:43:20 PM   energy = -1.1167590944 Ha, error = 2.052e-02 Ha
+11/09 06:43:20 PM   n_gates = 15, n_cx = 7, depth = 8, n_params = 6
+11/09 06:43:20 PM Architecture id = 370
+11/09 06:43:20 PM L5|0,1,0,4,0;0,2,2,4,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:43:24 PM   energy = -1.1167592222 Ha, error = 2.052e-02 Ha
+11/09 06:43:24 PM   n_gates = 5, n_cx = 0, depth = 2, n_params = 3
+11/09 06:43:24 PM Architecture id = 371
+11/09 06:43:24 PM L5|0,3,0,2,0;0,0,0,0,3;2,0,2,0,0;0,0,0,0,0;0,0,0,4,1
+11/09 06:43:32 PM   energy = -1.1372838393 Ha, error = -4.941e-09 Ha
+11/09 06:43:32 PM   n_gates = 11, n_cx = 6, depth = 9, n_params = 4
+11/09 06:43:32 PM Architecture id = 372
+11/09 06:43:32 PM L4|0,3,2,4,0;0,2,3,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:43:36 PM   energy = -0.7811874619 Ha, error = 3.561e-01 Ha
+11/09 06:43:36 PM   n_gates = 5, n_cx = 0, depth = 2, n_params = 4
+11/09 06:43:36 PM Architecture id = 373
+11/09 06:43:36 PM L5|0,1,0,1,0;0,2,3,4,0;0,1,2,0,0;0,0,0,0,0;0,0,2,4,2
+11/09 06:43:42 PM   energy = -0.5382052105 Ha, error = 5.991e-01 Ha
+11/09 06:43:42 PM   n_gates = 13, n_cx = 4, depth = 6, n_params = 7
+11/09 06:43:42 PM Architecture id = 374
+11/09 06:43:42 PM L1|0,3,0,2,0
+11/09 06:43:42 PM   energy = -1.1167592994 Ha, error = 2.052e-02 Ha
+11/09 06:43:42 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:43:42 PM Architecture id = 375
+11/09 06:43:42 PM L4|0,1,0,4,0;0,2,0,0,0;0,0,3,4,0;0,0,0,0,0
+11/09 06:43:45 PM   energy = -1.1167591957 Ha, error = 2.052e-02 Ha
+11/09 06:43:45 PM   n_gates = 5, n_cx = 0, depth = 3, n_params = 3
+11/09 06:43:45 PM Architecture id = 376
+11/09 06:43:45 PM L5|2,3,2,4,0;0,2,3,4,3;2,0,3,4,0;0,0,0,2,2;2,1,0,4,3
+11/09 06:43:55 PM   energy = -0.8340284463 Ha, error = 3.033e-01 Ha
+11/09 06:43:55 PM   n_gates = 24, n_cx = 10, depth = 13, n_params = 10
+11/09 06:43:55 PM Architecture id = 377
+11/09 06:43:55 PM L5|0,1,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,4,3
+11/09 06:43:59 PM   energy = -0.0876263221 Ha, error = 1.050e+00 Ha
+11/09 06:43:59 PM   n_gates = 5, n_cx = 3, depth = 5, n_params = 1
+11/09 06:43:59 PM Architecture id = 378
+11/09 06:43:59 PM L5|2,3,1,2,0;0,1,2,4,0;0,0,0,0,0;0,0,0,2,3;2,1,0,4,2
+11/09 06:44:05 PM   energy = -1.1167591499 Ha, error = 2.052e-02 Ha
+11/09 06:44:05 PM   n_gates = 18, n_cx = 7, depth = 9, n_params = 9
+11/09 06:44:05 PM Architecture id = 379
+11/09 06:44:05 PM L5|2,3,1,4,0;0,2,2,4,0;0,1,2,0,0;0,0,0,2,3;2,1,0,4,2
+11/09 06:44:16 PM   energy = -1.1372838351 Ha, error = -7.321e-10 Ha
+11/09 06:44:16 PM   n_gates = 20, n_cx = 7, depth = 10, n_params = 10
+11/09 06:44:16 PM Architecture id = 380
+11/09 06:44:16 PM L5|0,1,0,1,0;0,2,3,4,1;0,1,2,0,0;0,0,0,2,3;2,1,2,4,2
+11/09 06:44:28 PM   energy = -1.1162521857 Ha, error = 2.103e-02 Ha
+11/09 06:44:28 PM   n_gates = 22, n_cx = 10, depth = 13, n_params = 10
+11/09 06:44:28 PM generation = 19
+11/09 06:44:28 PM population error: best = -4.941e-09, mean = 8.210e-03, median = 1.252e-06, worst = 2.052e-02
+11/09 06:44:28 PM population cost : best = 1.0, mean = 10.20, median = 12.00, worst = 20.0
+11/09 06:44:28 PM Architecture id = 381
+11/09 06:44:28 PM L5|2,3,1,4,0;0,0,2,4,0;0,0,0,0,0;0,0,0,2,3;2,1,0,4,2
+11/09 06:44:36 PM   energy = -1.1167593054 Ha, error = 2.052e-02 Ha
+11/09 06:44:36 PM   n_gates = 17, n_cx = 7, depth = 9, n_params = 7
+11/09 06:44:36 PM Architecture id = 382
+11/09 06:44:36 PM L5|0,1,0,0,0;0,0,0,0,0;0,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:44:40 PM   energy = -0.7811875618 Ha, error = 3.561e-01 Ha
+11/09 06:44:40 PM   n_gates = 3, n_cx = 0, depth = 2, n_params = 2
+11/09 06:44:40 PM Architecture id = 383
+11/09 06:44:40 PM L5|0,3,0,1,0;0,1,0,0,0;0,0,3,4,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:44:43 PM   energy = -0.7811874780 Ha, error = 3.561e-01 Ha
+11/09 06:44:43 PM   n_gates = 5, n_cx = 0, depth = 3, n_params = 4
+11/09 06:44:43 PM Architecture id = 384
+11/09 06:44:43 PM L5|0,3,0,2,0;0,0,0,0,3;2,0,0,0,0;0,0,0,0,0;0,0,0,4,1
+11/09 06:44:51 PM   energy = -1.1372838396 Ha, error = -5.248e-09 Ha
+11/09 06:44:51 PM   n_gates = 10, n_cx = 6, depth = 9, n_params = 3
+11/09 06:44:51 PM Architecture id = 385
+11/09 06:44:51 PM L5|2,1,0,2,0;0,1,0,0,0;0,0,3,4,0;0,0,0,2,3;2,0,2,4,2
+11/09 06:44:58 PM   energy = -1.1167592811 Ha, error = 2.052e-02 Ha
+11/09 06:44:58 PM   n_gates = 17, n_cx = 7, depth = 10, n_params = 8
+11/09 06:44:58 PM Architecture id = 386
+11/09 06:44:58 PM L5|0,3,0,0,0;0,1,0,0,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:45:02 PM   energy = -1.1167593008 Ha, error = 2.052e-02 Ha
+11/09 06:45:02 PM   n_gates = 2, n_cx = 0, depth = 2, n_params = 2
+11/09 06:45:02 PM Architecture id = 387
+11/09 06:45:02 PM L4|0,3,0,0,0;0,2,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:45:05 PM   energy = -1.1167593008 Ha, error = 2.052e-02 Ha
+11/09 06:45:05 PM   n_gates = 2, n_cx = 0, depth = 2, n_params = 2
+11/09 06:45:05 PM Architecture id = 388
+11/09 06:45:05 PM L1|0,1,0,2,0
+11/09 06:45:05 PM   energy = -1.1167592881 Ha, error = 2.052e-02 Ha
+11/09 06:45:05 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:45:05 PM Architecture id = 389
+11/09 06:45:05 PM L4|0,1,0,2,0;0,0,0,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:45:05 PM   energy = -1.1167592881 Ha, error = 2.052e-02 Ha
+11/09 06:45:05 PM   n_gates = 2, n_cx = 0, depth = 1, n_params = 2
+11/09 06:45:05 PM Architecture id = 390
+11/09 06:45:05 PM L5|2,3,1,4,0;0,2,2,4,0;0,0,2,0,0;0,0,0,2,3;2,0,2,2,2
+11/09 06:45:15 PM   energy = -1.1372834232 Ha, error = 4.112e-07 Ha
+11/09 06:45:15 PM   n_gates = 19, n_cx = 7, depth = 10, n_params = 10
+11/09 06:45:15 PM Architecture id = 391
+11/09 06:45:15 PM L5|0,3,1,4,0;0,2,3,4,0;0,1,2,0,0;0,0,0,0,0;0,0,0,0,0
+11/09 06:45:19 PM   energy = -1.1167589759 Ha, error = 2.052e-02 Ha
+11/09 06:45:19 PM   n_gates = 8, n_cx = 0, depth = 3, n_params = 6
+11/09 06:45:19 PM Architecture id = 392
+11/09 06:45:19 PM L4|0,2,1,4,0;3,1,2,4,2;2,1,0,0,0;0,0,0,0,0
+11/09 06:45:27 PM   energy = -1.1372826723 Ha, error = 1.162e-06 Ha
+11/09 06:45:27 PM   n_gates = 13, n_cx = 4, depth = 5, n_params = 7
+11/09 06:45:27 PM Architecture id = 393
+11/09 06:45:27 PM L5|2,3,1,4,0;0,2,3,4,2;0,1,2,0,0;0,0,0,2,3;2,0,2,4,2
+11/09 06:45:40 PM   energy = -0.5342872381 Ha, error = 6.030e-01 Ha
+11/09 06:45:40 PM   n_gates = 24, n_cx = 11, depth = 12, n_params = 10
+11/09 06:45:40 PM Architecture id = 394
+11/09 06:45:40 PM L5|2,3,1,4,0;0,2,2,4,0;0,0,0,0,0;0,0,0,0,3;2,1,0,4,2
+11/09 06:45:47 PM   energy = -0.8340285352 Ha, error = 3.033e-01 Ha
+11/09 06:45:47 PM   n_gates = 17, n_cx = 7, depth = 8, n_params = 7
+11/09 06:45:47 PM Architecture id = 395
+11/09 06:45:47 PM L4|0,3,0,0,0;0,1,0,0,0;0,0,0,0,0;0,0,0,2,0
+11/09 06:45:52 PM   energy = -1.1167591682 Ha, error = 2.052e-02 Ha
+11/09 06:45:52 PM   n_gates = 3, n_cx = 0, depth = 3, n_params = 3
+11/09 06:45:52 PM Architecture id = 396
+11/09 06:45:52 PM L5|0,3,0,2,0;0,0,0,4,0;0,1,2,0,0;0,0,0,2,3;2,0,0,4,3
+11/09 06:46:02 PM   energy = -1.1372838290 Ha, error = 5.402e-09 Ha
+11/09 06:46:02 PM   n_gates = 14, n_cx = 6, depth = 11, n_params = 6
+11/09 06:46:02 PM Architecture id = 397
+11/09 06:46:02 PM L5|0,2,0,4,0;3,1,2,4,2;2,1,0,0,0;0,0,0,0,0;0,0,2,4,0
+11/09 06:46:12 PM   energy = -0.7883898105 Ha, error = 3.489e-01 Ha
+11/09 06:46:12 PM   n_gates = 14, n_cx = 4, depth = 6, n_params = 7
+11/09 06:46:12 PM Architecture id = 398
+11/09 06:46:12 PM L5|0,3,0,2,0;0,0,0,0,3;2,0,2,0,0;0,0,0,0,0;0,0,0,0,1
+11/09 06:46:20 PM   energy = -1.1372835292 Ha, error = 3.052e-07 Ha
+11/09 06:46:20 PM   n_gates = 10, n_cx = 6, depth = 8, n_params = 4
+11/09 06:46:20 PM Architecture id = 399
+11/09 06:46:20 PM L5|2,3,1,4,0;0,2,0,0,3;2,0,3,4,0;0,0,0,0,0;0,0,2,4,2
+11/09 06:46:27 PM   energy = -0.8340285208 Ha, error = 3.033e-01 Ha
+11/09 06:46:27 PM   n_gates = 17, n_cx = 7, depth = 9, n_params = 7
+11/09 06:46:27 PM Architecture id = 400
+11/09 06:46:27 PM L5|2,3,1,4,0;0,2,2,4,0;0,0,0,0,0;0,0,0,2,3;2,0,0,0,2
+11/09 06:46:37 PM   energy = -1.1372821382 Ha, error = 1.696e-06 Ha
+11/09 06:46:37 PM   n_gates = 16, n_cx = 7, depth = 9, n_params = 7
+11/09 06:46:37 PM generation = 20
+11/09 06:46:37 PM population error: best = -5.248e-09, mean = 1.026e-02, median = 1.026e-02, worst = 2.052e-02
+11/09 06:46:37 PM population cost : best = 1.0, mean = 8.00, median = 7.50, worst = 18.0
+11/09 06:46:37 PM ======================================================================
+11/09 06:46:37 PM Pareto front (error vs gates)
+11/09 06:46:37 PM   error = -5.248e-09 Ha, cost = 10.00
+11/09 06:46:37 PM   error = 2.052e-02 Ha, cost = 1.00
+11/09 06:46:37 PM   error = 2.052e-02 Ha, cost = 1.00
+11/09 06:46:37 PM ======================================================================
+
+总计五十多分钟
